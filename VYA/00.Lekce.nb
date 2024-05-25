@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     85170,       2057]
-NotebookOptionsPosition[     81765,       1991]
-NotebookOutlinePosition[     82168,       2007]
-CellTagsIndexPosition[     82125,       2004]
+NotebookDataLength[    114377,       2747]
+NotebookOptionsPosition[    110066,       2665]
+NotebookOutlinePosition[    110469,       2681]
+CellTagsIndexPosition[    110426,       2678]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -1984,6 +1984,680 @@ special syntax. ",
    False]]], "Output",
  CellChangeTimes->{3.925659846505061*^9},
  CellLabel->"Out[11]=",ExpressionUUID->"2a950f5e-d4fd-4c55-bb1a-3887e274e72d"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Head", "[", "Vyraz", "]"}]], "Input",
+ CellChangeTimes->{{3.897472213745158*^9, 3.8974722186568503`*^9}},
+ CellLabel->"In[12]:=",ExpressionUUID->"6a71e6ca-e1a2-4b40-b8c3-806131f6ea9b"],
+
+Cell[BoxData["Plus"], "Output",
+ CellChangeTimes->{3.9256598925453863`*^9},
+ CellLabel->"Out[12]=",ExpressionUUID->"a8274499-7c88-4dfa-9cc7-cebda53aea71"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"?", "Head"}]], "Input",
+ CellChangeTimes->{{3.897472224436243*^9, 3.897472226323121*^9}},
+ CellLabel->"In[13]:=",ExpressionUUID->"38e976f2-f010-43b0-95df-f9afdab85334"],
+
+Cell[BoxData[
+ InterpretationBox[
+  StyleBox[
+   FrameBox[
+    DynamicModuleBox[{System`InformationDump`open$$ = False, 
+     System`InformationDump`mouseOver$$ = False}, 
+     PaneSelectorBox[{True->
+      TagBox[GridBox[{
+         {
+          ItemBox[
+           PaneBox[
+            StyleBox["\<\" Symbol\"\>", "InformationTitleText",
+             StripOnInput->False,
+             BaseStyle -> None],
+            FrameMargins->{{4, 0}, {-1, 1}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], 
+          ItemBox[
+           PaneBox[
+            TooltipBox[
+             ButtonBox[
+              PaneSelectorBox[{False->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIcon"]], True->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIconHot"]]}, Dynamic[
+                CurrentValue["MouseOver"]]],
+              Appearance->None,
+              BaseStyle->"Link",
+              ButtonData->"paclet:ref/Head",
+              ButtonNote->"paclet:ref/Head"],
+             "\"paclet:ref/Head\""],
+            FrameMargins->{{0, 4}, {0, 2}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False]},
+         {
+          ItemBox[
+           PaneBox[
+            
+            StyleBox["\<\"\\!\\(\\*RowBox[{\\\"Head\\\", \\\"[\\\", StyleBox[\
+\\\"expr\\\", \\\"TI\\\"], \\\"]\\\"}]\\) gives the head of \
+\\!\\(\\*StyleBox[\\\"expr\\\", \\\"TI\\\"]\\). \
+\\n\\!\\(\\*RowBox[{\\\"Head\\\", \\\"[\\\", RowBox[{StyleBox[\\\"expr\\\", \
+\\\"TI\\\"], \\\",\\\", StyleBox[\\\"h\\\", \\\"TI\\\"]}], \\\"]\\\"}]\\) \
+wraps the result with \\!\\(\\*StyleBox[\\\"h\\\", \\\"TI\\\"]\\).\"\>", 
+             "InformationUsageText",
+             StripOnInput->False,
+             LineSpacing->{1.5, 1.5, 3.}],
+            FrameMargins->{{10, 10}, {8, 10}}],
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False], 
+          ItemBox["\<\"\"\>",
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False]},
+         {
+          PaneBox[GridBox[{
+             {
+              
+              DynamicModuleBox[{System`InformationDump`open$$ = {
+               False, False, False, False, False, False}}, 
+               StyleBox[GridBox[{
+                  {
+                   TagBox[
+                    TooltipBox[
+                    StyleBox["\<\" Documentation\"\>", "InformationRowLabel",
+                    StripOnInput->False],
+                    "\"Documentation\"",
+                    TooltipStyle->"TextStyling"],
+                    Annotation[#, "Documentation", "Tooltip"]& ], 
+                   TemplateBox[{
+                    
+                    TemplateBox[{
+                    "\"Local \[RightGuillemet]\"", "paclet:ref/Head", 
+                    "paclet:ref/Head", "Link", {
+                    RGBColor[0.9686274509803922, 0.4666666666666667, 0.]}, 
+                    BaseStyle -> {
+                    RGBColor[0.0784313725490196, 0.1568627450980392, 0.6]}}, 
+                    "HyperlinkTemplate"], "\"  \"", 
+                    StyleBox[
+                    "\"|\"", "InformationRowLabel", StripOnInput -> False], 
+                    "\"  \"", 
+                    TemplateBox[{"\"Web \[RightGuillemet]\"", {
+                    URL[
+                    "http://reference.wolfram.com/language/ref/Head.html"], 
+                    None}, "http://reference.wolfram.com/language/ref/Head.\
+html", "Hyperlink", {
+                    RGBColor[0.9686274509803922, 0.4666666666666667, 0.]}, 
+                    BaseStyle -> {
+                    RGBColor[0.0784313725490196, 0.1568627450980392, 0.6]}}, 
+                    "HyperlinkTemplate"]},
+                    "RowDefault"]},
+                  {
+                   TagBox[
+                    TooltipBox[
+                    StyleBox["\<\" Attributes\"\>", "InformationRowLabel",
+                    StripOnInput->False],
+                    "\"Attributes\"",
+                    TooltipStyle->"TextStyling"],
+                    Annotation[#, "Attributes", "Tooltip"]& ], 
+                   RowBox[{"{", "Protected", "}"}]},
+                  {
+                   TagBox[
+                    TooltipBox[
+                    StyleBox["\<\" Full Name\"\>", "InformationRowLabel",
+                    StripOnInput->False],
+                    "\"FullName\"",
+                    TooltipStyle->"TextStyling"],
+                    
+                    Annotation[#, "FullName", 
+                    "Tooltip"]& ], "\<\"System`Head\"\>"}
+                 },
+                 AutoDelete->False,
+                 GridBoxAlignment->{"Columns" -> {Right, Left}},
+                 GridBoxDividers->None,
+                 GridBoxItemSize->{"Columns" -> {Automatic, Automatic}},
+                 GridBoxSpacings->{"Columns" -> {
+                    Offset[0.27999999999999997`], {
+                    Offset[0.5599999999999999]}, 
+                    Offset[0.27999999999999997`]}, "Rows" -> {
+                    Offset[0.2], {
+                    Offset[0.8]}, 
+                    Offset[0.2]}}], "DialogStyle",
+                StripOnInput->False],
+               DynamicModuleValues:>{}]}
+            },
+            DefaultBaseStyle->"Column",
+            GridBoxAlignment->{"Columns" -> {{Left}}},
+            GridBoxDividers->{"Columns" -> {{False}}, "Rows" -> {{False}}},
+            
+            GridBoxItemSize->{
+             "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+            GridBoxSpacings->{"Columns" -> {
+                Offset[0.27999999999999997`], {
+                 Offset[0.5599999999999999]}, 
+                Offset[0.27999999999999997`]}, "Rows" -> {
+                Offset[0.2], {
+                 Offset[3.6]}, 
+                Offset[0.2]}}],
+           FrameMargins->{{6, 6}, {6, 3}}], ""},
+         {
+          ItemBox[
+           TagBox[
+            ButtonBox[
+             PaneSelectorBox[{False->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "UpPointerOpener"]], True->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "UpPointerOpenerHot"]]}, Dynamic[
+              System`InformationDump`mouseOver$$]],
+             Alignment->Left,
+             Appearance->{"Default" -> None},
+             
+             ButtonFunction:>FEPrivate`Set[
+              System`InformationDump`open$$, False],
+             Evaluator->Automatic,
+             FrameMargins->{{9, 0}, {0, 0}},
+             ImageMargins->0,
+             ImageSize->Full,
+             Method->"Preemptive"],
+            
+            EventHandlerTag[{
+             "MouseEntered" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, True], 
+              "MouseExited" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, False], 
+              Method -> "Preemptive", PassEventsDown -> Automatic, 
+              PassEventsUp -> True}]],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], "\[SpanFromLeft]"}
+        },
+        AutoDelete->False,
+        FrameStyle->Directive[
+          GrayLevel[0.8], 
+          Thickness[Tiny]],
+        GridBoxAlignment->{"Columns" -> {Left, Right}, "Rows" -> {{Center}}},
+        GridBoxDividers->{
+         "Columns" -> {{None}}, "Rows" -> {False, {True}, False}},
+        GridBoxItemSize->{
+         "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+       "Grid"], False->
+      TagBox[GridBox[{
+         {
+          ItemBox[
+           PaneBox[
+            StyleBox["\<\" Symbol\"\>", "InformationTitleText",
+             StripOnInput->False],
+            FrameMargins->{{4, 0}, {-1, 1}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], 
+          ItemBox[
+           PaneBox[
+            TooltipBox[
+             ButtonBox[
+              PaneSelectorBox[{False->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIcon"],
+                ImageSizeCache->{13., {4., 9.}}], True->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIconHot"],
+                ImageSizeCache->{13., {4., 9.}}]}, Dynamic[
+                CurrentValue["MouseOver"]]],
+              Appearance->None,
+              BaseStyle->"Link",
+              ButtonData->"paclet:ref/Head",
+              ButtonNote->"paclet:ref/Head"],
+             "\"paclet:ref/Head\""],
+            FrameMargins->{{0, 4}, {0, 2}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False]},
+         {
+          ItemBox[
+           PaneBox[
+            
+            StyleBox["\<\"\\!\\(\\*RowBox[{\\\"Head\\\", \\\"[\\\", StyleBox[\
+\\\"expr\\\", \\\"TI\\\"], \\\"]\\\"}]\\) gives the head of \
+\\!\\(\\*StyleBox[\\\"expr\\\", \\\"TI\\\"]\\). \
+\\n\\!\\(\\*RowBox[{\\\"Head\\\", \\\"[\\\", RowBox[{StyleBox[\\\"expr\\\", \
+\\\"TI\\\"], \\\",\\\", StyleBox[\\\"h\\\", \\\"TI\\\"]}], \\\"]\\\"}]\\) \
+wraps the result with \\!\\(\\*StyleBox[\\\"h\\\", \\\"TI\\\"]\\).\"\>", 
+             "InformationUsageText",
+             StripOnInput->False,
+             LineSpacing->{1.5, 1.5, 3.}],
+            FrameMargins->{{10, 10}, {8, 10}}],
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False], 
+          ItemBox["\<\"\"\>",
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False]},
+         {
+          ItemBox[
+           TagBox[
+            ButtonBox[
+             PaneSelectorBox[{False->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "DownPointerOpener"],
+               ImageSizeCache->{10., {3., 7.}}], True->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "DownPointerOpenerHot"],
+               ImageSizeCache->{10., {3., 7.}}]}, Dynamic[
+              System`InformationDump`mouseOver$$]],
+             Alignment->Left,
+             Appearance->{"Default" -> None},
+             
+             ButtonFunction:>FEPrivate`Set[
+              System`InformationDump`open$$, True],
+             Evaluator->Automatic,
+             FrameMargins->{{9, 0}, {0, 0}},
+             ImageMargins->0,
+             ImageSize->Full,
+             Method->"Preemptive"],
+            
+            EventHandlerTag[{
+             "MouseEntered" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, True], 
+              "MouseExited" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, False], 
+              Method -> "Preemptive", PassEventsDown -> Automatic, 
+              PassEventsUp -> True}]],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], "\[SpanFromLeft]"}
+        },
+        AutoDelete->False,
+        FrameStyle->Directive[
+          GrayLevel[0.8], 
+          Thickness[Tiny]],
+        GridBoxAlignment->{"Columns" -> {Left, Right}, "Rows" -> {{Center}}},
+        GridBoxDividers->{
+         "Columns" -> {{None}}, "Rows" -> {False, {True}, False}},
+        GridBoxItemSize->{
+         "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+       "Grid"]}, Dynamic[System`InformationDump`open$$],
+      BaselinePosition->Baseline,
+      FrameMargins->0,
+      ImageSize->Automatic],
+     DynamicModuleValues:>{}],
+    BaseStyle->"InformationGridFrame",
+    StripOnInput->False], "InformationGridPlain",
+   StripOnInput->False],
+  InformationData[<|
+   "ObjectType" -> "Symbol", "Usage" -> 
+    "\!\(\*RowBox[{\"Head\", \"[\", StyleBox[\"expr\", \"TI\"], \"]\"}]\) \
+gives the head of \!\(\*StyleBox[\"expr\", \"TI\"]\). \n\
+\!\(\*RowBox[{\"Head\", \"[\", RowBox[{StyleBox[\"expr\", \"TI\"], \",\", \
+StyleBox[\"h\", \"TI\"]}], \"]\"}]\) wraps the result with \!\(\*StyleBox[\"h\
+\", \"TI\"]\).", 
+    "Documentation" -> <|
+     "Local" -> "paclet:ref/Head", "Web" -> 
+      "http://reference.wolfram.com/language/ref/Head.html"|>, "OwnValues" -> 
+    None, "UpValues" -> None, "DownValues" -> None, "SubValues" -> None, 
+    "DefaultValues" -> None, "NValues" -> None, "FormatValues" -> None, 
+    "Options" -> None, "Attributes" -> {Protected}, "FullName" -> 
+    "System`Head"|>, False]]], "Output",
+ CellChangeTimes->{3.925659900183132*^9},
+ CellLabel->"Out[13]=",ExpressionUUID->"bfa44aa2-1b27-435e-829f-8df162cf4757"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Attributes", "[", "Plus", "]"}]], "Input",
+ CellChangeTimes->{{3.897906475978978*^9, 3.8979064924488516`*^9}},
+ CellLabel->"In[14]:=",ExpressionUUID->"b367f5b2-9457-48ba-aecd-443743196b27"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "Flat", ",", "Listable", ",", "NumericFunction", ",", "OneIdentity", ",", 
+   "Orderless", ",", "Protected"}], "}"}]], "Output",
+ CellChangeTimes->{3.9256599087932725`*^9},
+ CellLabel->"Out[14]=",ExpressionUUID->"f9aded1e-6e7f-492d-bc84-221b3d7e0441"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"?", "Attributes"}]], "Input",
+ CellChangeTimes->{{3.8979064994246035`*^9, 3.897906503186211*^9}},
+ CellLabel->"In[15]:=",ExpressionUUID->"1b8b9add-ed49-4062-95c5-95e649797127"],
+
+Cell[BoxData[
+ InterpretationBox[
+  StyleBox[
+   FrameBox[
+    DynamicModuleBox[{System`InformationDump`open$$ = False, 
+     System`InformationDump`mouseOver$$ = False}, 
+     PaneSelectorBox[{True->
+      TagBox[GridBox[{
+         {
+          ItemBox[
+           PaneBox[
+            StyleBox["\<\" Symbol\"\>", "InformationTitleText",
+             StripOnInput->False,
+             BaseStyle -> None],
+            FrameMargins->{{4, 0}, {-1, 1}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], 
+          ItemBox[
+           PaneBox[
+            TooltipBox[
+             ButtonBox[
+              PaneSelectorBox[{False->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIcon"]], True->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIconHot"]]}, Dynamic[
+                CurrentValue["MouseOver"]]],
+              Appearance->None,
+              BaseStyle->"Link",
+              ButtonData->"paclet:ref/Attributes",
+              ButtonNote->"paclet:ref/Attributes"],
+             "\"paclet:ref/Attributes\""],
+            FrameMargins->{{0, 4}, {0, 2}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False]},
+         {
+          ItemBox[
+           PaneBox[
+            
+            StyleBox["\<\"\\!\\(\\*RowBox[{\\\"Attributes\\\", \\\"[\\\", \
+StyleBox[\\\"symbol\\\", \\\"TI\\\"], \\\"]\\\"}]\\) gives the list of \
+attributes for a symbol. \\n\\!\\(\\*RowBox[{\\\"Attributes\\\", \\\"[\\\", \
+StyleBox[\\\"\\\\\\\"\\\\!\\\\(\\\\*StyleBox[\\\\\\\"symbol\\\\\\\",\\\\\\\"\
+TI\\\\\\\"]\\\\)\\\\\\\"\\\", ShowStringCharacters->True], \\\"]\\\"}]\\) \
+gives the attributes for the symbol named \
+\\\"\\!\\(\\*StyleBox[\\\"symbol\\\", \\\"TI\\\"]\\)\\\" if it \
+exists.\\n\\!\\(\\*RowBox[{\\\"Attributes\\\", \\\"[\\\", RowBox[{\\\"{\\\", \
+RowBox[{SubscriptBox[StyleBox[\\\"s\\\", \\\"TI\\\"], StyleBox[\\\"1\\\", \
+\\\"TR\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"s\\\", \\\"TI\\\"], \
+StyleBox[\\\"2\\\", \\\"TR\\\"]], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \\\
+\"TR\\\"]}], \\\"}\\\"}], \\\"]\\\"}]\\) gives a list of the attributes for \
+each of the \\!\\(\\*SubscriptBox[StyleBox[\\\"s\\\", \\\"TI\\\"], \
+StyleBox[\\\"i\\\", \\\"TI\\\"]]\\).\"\>", "InformationUsageText",
+             StripOnInput->False,
+             LineSpacing->{1.5, 1.5, 3.}],
+            FrameMargins->{{10, 10}, {8, 10}}],
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False], 
+          ItemBox["\<\"\"\>",
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False]},
+         {
+          PaneBox[GridBox[{
+             {
+              
+              DynamicModuleBox[{System`InformationDump`open$$ = {
+               False, False, False, False, False, False}}, 
+               StyleBox[GridBox[{
+                  {
+                   TagBox[
+                    TooltipBox[
+                    StyleBox["\<\" Documentation\"\>", "InformationRowLabel",
+                    StripOnInput->False],
+                    "\"Documentation\"",
+                    TooltipStyle->"TextStyling"],
+                    Annotation[#, "Documentation", "Tooltip"]& ], 
+                   TemplateBox[{
+                    
+                    TemplateBox[{
+                    "\"Local \[RightGuillemet]\"", "paclet:ref/Attributes", 
+                    "paclet:ref/Attributes", "Link", {
+                    RGBColor[0.9686274509803922, 0.4666666666666667, 0.]}, 
+                    BaseStyle -> {
+                    RGBColor[0.0784313725490196, 0.1568627450980392, 0.6]}}, 
+                    "HyperlinkTemplate"], "\"  \"", 
+                    StyleBox[
+                    "\"|\"", "InformationRowLabel", StripOnInput -> False], 
+                    "\"  \"", 
+                    TemplateBox[{"\"Web \[RightGuillemet]\"", {
+                    URL[
+                    "http://reference.wolfram.com/language/ref/Attributes.\
+html"], None}, "http://reference.wolfram.com/language/ref/Attributes.html", 
+                    "Hyperlink", {
+                    RGBColor[0.9686274509803922, 0.4666666666666667, 0.]}, 
+                    BaseStyle -> {
+                    RGBColor[0.0784313725490196, 0.1568627450980392, 0.6]}}, 
+                    "HyperlinkTemplate"]},
+                    "RowDefault"]},
+                  {
+                   TagBox[
+                    TooltipBox[
+                    StyleBox["\<\" Attributes\"\>", "InformationRowLabel",
+                    StripOnInput->False],
+                    "\"Attributes\"",
+                    TooltipStyle->"TextStyling"],
+                    Annotation[#, "Attributes", "Tooltip"]& ], 
+                   RowBox[{"{", 
+                    RowBox[{"HoldAll", ",", "Listable", ",", "Protected"}], 
+                    "}"}]},
+                  {
+                   TagBox[
+                    TooltipBox[
+                    StyleBox["\<\" Full Name\"\>", "InformationRowLabel",
+                    StripOnInput->False],
+                    "\"FullName\"",
+                    TooltipStyle->"TextStyling"],
+                    
+                    Annotation[#, "FullName", 
+                    "Tooltip"]& ], "\<\"System`Attributes\"\>"}
+                 },
+                 AutoDelete->False,
+                 GridBoxAlignment->{"Columns" -> {Right, Left}},
+                 GridBoxDividers->None,
+                 GridBoxItemSize->{"Columns" -> {Automatic, Automatic}},
+                 GridBoxSpacings->{"Columns" -> {
+                    Offset[0.27999999999999997`], {
+                    Offset[0.5599999999999999]}, 
+                    Offset[0.27999999999999997`]}, "Rows" -> {
+                    Offset[0.2], {
+                    Offset[0.8]}, 
+                    Offset[0.2]}}], "DialogStyle",
+                StripOnInput->False],
+               DynamicModuleValues:>{}]}
+            },
+            DefaultBaseStyle->"Column",
+            GridBoxAlignment->{"Columns" -> {{Left}}},
+            GridBoxDividers->{"Columns" -> {{False}}, "Rows" -> {{False}}},
+            
+            GridBoxItemSize->{
+             "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+            GridBoxSpacings->{"Columns" -> {
+                Offset[0.27999999999999997`], {
+                 Offset[0.5599999999999999]}, 
+                Offset[0.27999999999999997`]}, "Rows" -> {
+                Offset[0.2], {
+                 Offset[3.6]}, 
+                Offset[0.2]}}],
+           FrameMargins->{{6, 6}, {6, 3}}], ""},
+         {
+          ItemBox[
+           TagBox[
+            ButtonBox[
+             PaneSelectorBox[{False->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "UpPointerOpener"]], True->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "UpPointerOpenerHot"]]}, Dynamic[
+              System`InformationDump`mouseOver$$]],
+             Alignment->Left,
+             Appearance->{"Default" -> None},
+             
+             ButtonFunction:>FEPrivate`Set[
+              System`InformationDump`open$$, False],
+             Evaluator->Automatic,
+             FrameMargins->{{9, 0}, {0, 0}},
+             ImageMargins->0,
+             ImageSize->Full,
+             Method->"Preemptive"],
+            
+            EventHandlerTag[{
+             "MouseEntered" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, True], 
+              "MouseExited" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, False], 
+              Method -> "Preemptive", PassEventsDown -> Automatic, 
+              PassEventsUp -> True}]],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], "\[SpanFromLeft]"}
+        },
+        AutoDelete->False,
+        FrameStyle->Directive[
+          GrayLevel[0.8], 
+          Thickness[Tiny]],
+        GridBoxAlignment->{"Columns" -> {Left, Right}, "Rows" -> {{Center}}},
+        GridBoxDividers->{
+         "Columns" -> {{None}}, "Rows" -> {False, {True}, False}},
+        GridBoxItemSize->{
+         "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+       "Grid"], False->
+      TagBox[GridBox[{
+         {
+          ItemBox[
+           PaneBox[
+            StyleBox["\<\" Symbol\"\>", "InformationTitleText",
+             StripOnInput->False],
+            FrameMargins->{{4, 0}, {-1, 1}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], 
+          ItemBox[
+           PaneBox[
+            TooltipBox[
+             ButtonBox[
+              PaneSelectorBox[{False->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIcon"],
+                ImageSizeCache->{13., {4., 9.}}], True->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIconHot"],
+                ImageSizeCache->{13., {4., 9.}}]}, Dynamic[
+                CurrentValue["MouseOver"]]],
+              Appearance->None,
+              BaseStyle->"Link",
+              ButtonData->"paclet:ref/Attributes",
+              ButtonNote->"paclet:ref/Attributes"],
+             "\"paclet:ref/Attributes\""],
+            FrameMargins->{{0, 4}, {0, 2}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False]},
+         {
+          ItemBox[
+           PaneBox[
+            
+            StyleBox["\<\"\\!\\(\\*RowBox[{\\\"Attributes\\\", \\\"[\\\", \
+StyleBox[\\\"symbol\\\", \\\"TI\\\"], \\\"]\\\"}]\\) gives the list of \
+attributes for a symbol. \\n\\!\\(\\*RowBox[{\\\"Attributes\\\", \\\"[\\\", \
+StyleBox[\\\"\\\\\\\"\\\\!\\\\(\\\\*StyleBox[\\\\\\\"symbol\\\\\\\",\\\\\\\"\
+TI\\\\\\\"]\\\\)\\\\\\\"\\\", ShowStringCharacters->True], \\\"]\\\"}]\\) \
+gives the attributes for the symbol named \
+\\\"\\!\\(\\*StyleBox[\\\"symbol\\\", \\\"TI\\\"]\\)\\\" if it \
+exists.\\n\\!\\(\\*RowBox[{\\\"Attributes\\\", \\\"[\\\", RowBox[{\\\"{\\\", \
+RowBox[{SubscriptBox[StyleBox[\\\"s\\\", \\\"TI\\\"], StyleBox[\\\"1\\\", \
+\\\"TR\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"s\\\", \\\"TI\\\"], \
+StyleBox[\\\"2\\\", \\\"TR\\\"]], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \\\
+\"TR\\\"]}], \\\"}\\\"}], \\\"]\\\"}]\\) gives a list of the attributes for \
+each of the \\!\\(\\*SubscriptBox[StyleBox[\\\"s\\\", \\\"TI\\\"], \
+StyleBox[\\\"i\\\", \\\"TI\\\"]]\\).\"\>", "InformationUsageText",
+             StripOnInput->False,
+             LineSpacing->{1.5, 1.5, 3.}],
+            FrameMargins->{{10, 10}, {8, 10}}],
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False], 
+          ItemBox["\<\"\"\>",
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False]},
+         {
+          ItemBox[
+           TagBox[
+            ButtonBox[
+             PaneSelectorBox[{False->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "DownPointerOpener"],
+               ImageSizeCache->{10., {3., 7.}}], True->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "DownPointerOpenerHot"],
+               ImageSizeCache->{10., {3., 7.}}]}, Dynamic[
+              System`InformationDump`mouseOver$$]],
+             Alignment->Left,
+             Appearance->{"Default" -> None},
+             
+             ButtonFunction:>FEPrivate`Set[
+              System`InformationDump`open$$, True],
+             Evaluator->Automatic,
+             FrameMargins->{{9, 0}, {0, 0}},
+             ImageMargins->0,
+             ImageSize->Full,
+             Method->"Preemptive"],
+            
+            EventHandlerTag[{
+             "MouseEntered" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, True], 
+              "MouseExited" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, False], 
+              Method -> "Preemptive", PassEventsDown -> Automatic, 
+              PassEventsUp -> True}]],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], "\[SpanFromLeft]"}
+        },
+        AutoDelete->False,
+        FrameStyle->Directive[
+          GrayLevel[0.8], 
+          Thickness[Tiny]],
+        GridBoxAlignment->{"Columns" -> {Left, Right}, "Rows" -> {{Center}}},
+        GridBoxDividers->{
+         "Columns" -> {{None}}, "Rows" -> {False, {True}, False}},
+        GridBoxItemSize->{
+         "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+       "Grid"]}, Dynamic[System`InformationDump`open$$],
+      BaselinePosition->Baseline,
+      FrameMargins->0,
+      ImageSize->Automatic],
+     DynamicModuleValues:>{}],
+    BaseStyle->"InformationGridFrame",
+    StripOnInput->False], "InformationGridPlain",
+   StripOnInput->False],
+  InformationData[<|
+   "ObjectType" -> "Symbol", "Usage" -> 
+    "\!\(\*RowBox[{\"Attributes\", \"[\", StyleBox[\"symbol\", \"TI\"], \
+\"]\"}]\) gives the list of attributes for a symbol. \n\
+\!\(\*RowBox[{\"Attributes\", \"[\", \
+StyleBox[\"\\\"\\!\\(\\*StyleBox[\\\"symbol\\\",\\\"TI\\\"]\\)\\\"\", \
+ShowStringCharacters->True], \"]\"}]\) gives the attributes for the symbol \
+named \"\!\(\*StyleBox[\"symbol\", \"TI\"]\)\" if it exists.\n\
+\!\(\*RowBox[{\"Attributes\", \"[\", RowBox[{\"{\", \
+RowBox[{SubscriptBox[StyleBox[\"s\", \"TI\"], StyleBox[\"1\", \"TR\"]], \
+\",\", SubscriptBox[StyleBox[\"s\", \"TI\"], StyleBox[\"2\", \"TR\"]], \",\", \
+StyleBox[\"\[Ellipsis]\", \"TR\"]}], \"}\"}], \"]\"}]\) gives a list of the \
+attributes for each of the \!\(\*SubscriptBox[StyleBox[\"s\", \"TI\"], \
+StyleBox[\"i\", \"TI\"]]\).", 
+    "Documentation" -> <|
+     "Local" -> "paclet:ref/Attributes", "Web" -> 
+      "http://reference.wolfram.com/language/ref/Attributes.html"|>, 
+    "OwnValues" -> None, "UpValues" -> None, "DownValues" -> None, 
+    "SubValues" -> None, "DefaultValues" -> None, "NValues" -> None, 
+    "FormatValues" -> None, "Options" -> None, 
+    "Attributes" -> {HoldAll, Listable, Protected}, "FullName" -> 
+    "System`Attributes"|>, False]]], "Output",
+ CellChangeTimes->{3.925659913975765*^9},
+ CellLabel->"Out[15]=",ExpressionUUID->"6bf00031-8569-4130-b5ba-6e52b6b361c8"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
@@ -2055,6 +2729,22 @@ Cell[68642, 1665, 297, 7, 34, "Output",ExpressionUUID->"a7c395a3-f6eb-4e8b-b565-
 Cell[CellGroupData[{
 Cell[68976, 1677, 195, 3, 28, "Input",ExpressionUUID->"6dc65066-b8b5-4d65-9491-e8f7c0e68931"],
 Cell[69174, 1682, 12539, 303, 95, "Output",ExpressionUUID->"2a950f5e-d4fd-4c55-bb1a-3887e274e72d"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[81750, 1990, 208, 3, 28, "Input",ExpressionUUID->"6a71e6ca-e1a2-4b40-b8c3-806131f6ea9b"],
+Cell[81961, 1995, 154, 2, 32, "Output",ExpressionUUID->"a8274499-7c88-4dfa-9cc7-cebda53aea71"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[82152, 2002, 192, 3, 28, "Input",ExpressionUUID->"38e976f2-f010-43b0-95df-f9afdab85334"],
+Cell[82347, 2007, 12556, 301, 120, "Output",ExpressionUUID->"bfa44aa2-1b27-435e-829f-8df162cf4757"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[94940, 2313, 213, 3, 28, "Input",ExpressionUUID->"b367f5b2-9457-48ba-aecd-443743196b27"],
+Cell[95156, 2318, 293, 6, 52, "Output",ExpressionUUID->"f9aded1e-6e7f-492d-bc84-221b3d7e0441"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[95486, 2329, 200, 3, 28, "Input",ExpressionUUID->"1b8b9add-ed49-4062-95c5-95e649797127"],
+Cell[95689, 2334, 14325, 325, 171, "Output",ExpressionUUID->"6bf00031-8569-4130-b5ba-6e52b6b361c8"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
