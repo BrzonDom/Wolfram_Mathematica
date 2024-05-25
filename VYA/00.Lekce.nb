@@ -1,0 +1,127 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      4242,        119]
+NotebookOptionsPosition[      3052,         91]
+NotebookOutlinePosition[      3455,        107]
+CellTagsIndexPosition[      3412,        104]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["VYA - P\[RHacek]edn\[AAcute]\[SHacek]ky", "Title",
+ CellChangeTimes->{{3.925659545528522*^9, 
+  3.9256595526463833`*^9}},ExpressionUUID->"306c6e80-d030-4bc0-93c9-\
+383415d624f4"],
+
+Cell[CellGroupData[{
+
+Cell["1. P\[RHacek]edn\[AAcute]\[SHacek]ka", "Section",
+ CellChangeTimes->{{3.9256595570785465`*^9, 
+  3.9256595706179695`*^9}},ExpressionUUID->"ffbf30ab-fcd8-409a-91db-\
+81ff8c715652"],
+
+Cell[CellGroupData[{
+
+Cell["T\[RHacek]i d\[URing]le\[ZHacek]it\[EAcute] p\[RHacek]\[IAcute]kazy", \
+"Subsection",
+ CellChangeTimes->{{3.897415528523425*^9, 3.897415540467931*^9}, 
+   3.9256595854228725`*^9},ExpressionUUID->"afef6e2b-28b2-4137-ba9e-\
+6e6ebaa96114"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Quiet", "[", 
+   RowBox[{"Remove", "[", "\"\<Global`*\>\"", "]"}], "]"}], ";"}]], "Input",
+ CellChangeTimes->{{3.8974156899305153`*^9, 3.8974157203027596`*^9}, 
+   3.897415823590561*^9, {3.8979910973240733`*^9, 
+   3.897991097606312*^9}},ExpressionUUID->"d099e15e-2ab7-4d1b-a183-\
+ede8f688a44c"],
+
+Cell["\tVyma\[ZHacek]e p\[RHacek]edchoz\[IAcute] definice ", "Text",
+ CellChangeTimes->{{3.89741572723484*^9, 3.8974157879557056`*^9}, 
+   3.897415831636015*^9},ExpressionUUID->"bfea6ad2-3fbb-4d57-b6d0-\
+9c45cf26a8bb"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"$HistoryLength", " ", "=", " ", "2"}], ";"}]], "Input",
+ CellChangeTimes->{{3.8974158097675734`*^9, 
+  3.8974158183297906`*^9}},ExpressionUUID->"46bbc88a-b920-402e-b6f3-\
+d4e0570e4d52"],
+
+Cell["\tOmezuje pam\[EHacek]\[THacek] j\[AAcute]dra, opat\[RHacek]en\[IAcute] \
+proti p\[RHacek]ete\[CHacek]en\[IAcute] pam\[EHacek]ti", "Text",
+ CellChangeTimes->{{3.8974158326411576`*^9, 3.897415884004798*^9}, {
+  3.897415942537265*^9, 
+  3.8974159582127557`*^9}},ExpressionUUID->"bedda673-9469-492e-96b6-\
+ae3a8a088126"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"SetDirectory", "[", 
+   RowBox[{"NotebookDirectory", "[", "]"}], "]"}], ";"}]], "Input",
+ CellChangeTimes->{{3.8974159892045546`*^9, 3.8974160160816703`*^9}, {
+  3.8974161427667117`*^9, 3.8974161553219748`*^9}, {3.8974161971589537`*^9, 
+  3.8974161975612993`*^9}},
+ CellLabel->
+  "In[116]:=",ExpressionUUID->"e5bfcfe7-416c-4e75-b6df-9e839f199cad"],
+
+Cell["\<\
+\tSetDir. ~ zavede m\[IAcute]sto nalezen\[EAcute] NotebookDir. ~ cesta k \
+lokaci. jako defaultn\[IAcute] adres\[AAcute]\[RHacek] \
+\>", "Text",
+ CellChangeTimes->{{3.897416252466672*^9, 
+  3.897416393999837*^9}},ExpressionUUID->"8d213ee0-68c6-4a2b-92d8-\
+b94ae3679809"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{600., 606.75},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"13.2 for Microsoft Windows (64-bit) (January 30, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"570944cd-0ddf-4567-b495-bf21b9b3854b"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 184, 3, 98, "Title",ExpressionUUID->"306c6e80-d030-4bc0-93c9-383415d624f4"],
+Cell[CellGroupData[{
+Cell[789, 29, 185, 3, 67, "Section",ExpressionUUID->"ffbf30ab-fcd8-409a-91db-81ff8c715652"],
+Cell[CellGroupData[{
+Cell[999, 36, 242, 4, 54, "Subsection",ExpressionUUID->"afef6e2b-28b2-4137-ba9e-6e6ebaa96114"],
+Cell[1244, 42, 330, 7, 28, "Input",ExpressionUUID->"d099e15e-2ab7-4d1b-a183-ede8f688a44c"],
+Cell[1577, 51, 218, 3, 35, "Text",ExpressionUUID->"bfea6ad2-3fbb-4d57-b6d0-9c45cf26a8bb"],
+Cell[1798, 56, 220, 5, 28, "Input",ExpressionUUID->"46bbc88a-b920-402e-b6f3-d4e0570e4d52"],
+Cell[2021, 63, 323, 5, 35, "Text",ExpressionUUID->"bedda673-9469-492e-96b6-ae3a8a088126"],
+Cell[2347, 70, 382, 8, 28, "Input",ExpressionUUID->"e5bfcfe7-416c-4e75-b6df-9e839f199cad"],
+Cell[2732, 80, 280, 6, 58, "Text",ExpressionUUID->"8d213ee0-68c6-4a2b-92d8-b94ae3679809"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
