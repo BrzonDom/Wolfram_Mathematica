@@ -1,0 +1,97 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      2381,         89]
+NotebookOptionsPosition[      1772,         69]
+NotebookOutlinePosition[      2180,         85]
+CellTagsIndexPosition[      2137,         82]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["1. \[CapitalUAcute]kol", "Title",
+ CellChangeTimes->{{3.899619664303698*^9, 
+  3.89961966805993*^9}},ExpressionUUID->"d5978dbc-fc7a-472d-8bd0-\
+635bad6f732e"],
+
+Cell[CellGroupData[{
+
+Cell["Zad\[AAcute]n\[IAcute]", "Section",
+ CellChangeTimes->{{3.8996196768230352`*^9, 
+  3.8996196790471077`*^9}},ExpressionUUID->"493e84de-7a80-4686-a0b1-\
+6f1ec586f589"],
+
+Cell["\<\
+Napiste funkci,  ktera na intervalu (-1, 1) ma definici f (x) = x^2 a je \
+periodicka s periodou T = 2
+
+pouzijte definici periodicke funkce jak ji znate z matematiky
+
+(*inspirujte se kodem
+
+ClearAll[f];
+
+f[x_]:=0/;x\\(LessEqual]0;
+
+f[x_]:=x/;0<x\\(LessEqual]1;
+
+f[x_]:=Exp[-(x-1)]/;x>1;
+
+Plot[f[x],{x,-5,5},PlotStyle\\(Rule]{Red,Thick},AxesLabel\\(Rule]{\
+\[OpenCurlyDoubleQuote]x\[CloseCurlyDoubleQuote],\\
+
+\[OpenCurlyDoubleQuote]f[x]\[CloseCurlyDoubleQuote]}]*)
+
+Vytisknete, popiste osy, nstavte barvu grafu a podobne to vysperkujte
+
+dotazy na kyncl@fel.cvut.cz
+
+Form\[AAcute]t odevzd\[AAcute]n\[IAcute] - ukol1JmenoPrinmeni.nb
+
+\[CapitalUAcute]loha je za 5 bod\[URing].\
+\>", "Text",
+ CellChangeTimes->{
+  3.8996196998465815`*^9},ExpressionUUID->"e4ce8802-1adf-434f-ae38-\
+1e76d9683cd6"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{598.5, 606.},
+WindowMargins->{{Automatic, 174}, {47.25, Automatic}},
+FrontEndVersion->"13.2 for Microsoft Windows (64-bit) (January 30, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"a01545b5-2669-436a-9343-1e0a31e1c227"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 164, 3, 98, "Title",ExpressionUUID->"d5978dbc-fc7a-472d-8bd0-635bad6f732e"],
+Cell[CellGroupData[{
+Cell[769, 29, 171, 3, 67, "Section",ExpressionUUID->"493e84de-7a80-4686-a0b1-6f1ec586f589"],
+Cell[943, 34, 801, 31, 610, "Text",ExpressionUUID->"e4ce8802-1adf-434f-ae38-1e76d9683cd6"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
