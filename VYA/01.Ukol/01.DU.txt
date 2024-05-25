@@ -1,0 +1,25 @@
+Napiste funkci,  ktera na intervalu (-1, 1) ma definici f (x) = x^2 a je periodicka s periodou T = 2
+
+pouzijte definici periodicke funkce jak ji znate z matematiky
+
+(*inspirujte se kodem
+
+ClearAll[f];
+
+f[x_]:=0/;x\(LessEqual]0;
+
+f[x_]:=x/;0<x\(LessEqual]1;
+
+f[x_]:=Exp[-(x-1)]/;x>1;
+
+Plot[f[x],{x,-5,5},PlotStyle\(Rule]{Red,Thick},AxesLabel\(Rule]{"x",\
+
+"f[x]"}]*)
+
+Vytisknete, popiste osy, nstavte barvu grafu a podobne to vysperkujte
+
+dotazy na kyncl@fel.cvut.cz
+
+Formát odevzdání - ukol1JmenoPrinmeni.nb
+
+Úloha je za 5 bodů.
