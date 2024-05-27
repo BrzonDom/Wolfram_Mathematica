@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     18109,        462]
-NotebookOptionsPosition[     16431,        424]
-NotebookOutlinePosition[     16840,        440]
-CellTagsIndexPosition[     16797,        437]
+NotebookDataLength[     20616,        535]
+NotebookOptionsPosition[     18398,        488]
+NotebookOutlinePosition[     18807,        504]
+CellTagsIndexPosition[     18764,        501]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -417,6 +417,70 @@ evaluating \!\(\*StyleBox[\"rhs\", \"TI\"]\) only after the rule is used. ",
  CellChangeTimes->{3.897991245207528*^9},
  CellLabel->
   "Out[144]=",ExpressionUUID->"c3a22536-c519-4ca2-be3b-17099aa00d93"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Vyraz", " ", "=", " ", 
+  RowBox[{
+   RowBox[{"Sin", "[", 
+    RowBox[{
+     RowBox[{"x", "^", "2"}], " ", "+", " ", "3"}], "]"}], " ", "+", " ", 
+   RowBox[{"x", "^", "y"}], " ", "+", " ", 
+   RowBox[{"E", "^", "Pi"}]}]}]], "Input",
+ CellLabel->
+  "In[145]:=",ExpressionUUID->"8b4010a1-9387-4eef-a3ef-526dda26a4a1"],
+
+Cell[BoxData[
+ RowBox[{
+  SuperscriptBox["\[ExponentialE]", "\[Pi]"], "+", 
+  SuperscriptBox["x", "y"], "+", 
+  RowBox[{"Sin", "[", 
+   RowBox[{"3", "+", 
+    SuperscriptBox["x", "2"]}], "]"}]}]], "Output",
+ CellChangeTimes->{3.897992860670957*^9},
+ CellLabel->
+  "Out[145]=",ExpressionUUID->"d5b69813-c777-46f3-838b-4432e57360fd"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"a", "=", "5"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"Vyraz", " ", "/.", " ", 
+  RowBox[{
+   RowBox[{"a_", "^", "b_"}], " ", ":>", " ", 
+   RowBox[{"b", "^", "a"}]}]}], "\[IndentingNewLine]", 
+ RowBox[{"Vyraz", " ", "/.", " ", 
+  RowBox[{
+   RowBox[{"a_", "^", "b_"}], " ", "->", " ", 
+   RowBox[{"b", "^", "a"}]}]}]}], "Input",
+ CellChangeTimes->{{3.897993116833665*^9, 3.89799315750594*^9}, {
+  3.897993205387784*^9, 3.8979932063279295`*^9}},
+ CellLabel->
+  "In[149]:=",ExpressionUUID->"9fabe664-fed1-4de6-b00b-def74aec3e4a"],
+
+Cell[BoxData[
+ RowBox[{
+  SuperscriptBox["\[Pi]", "\[ExponentialE]"], "+", 
+  SuperscriptBox["y", "x"], "+", 
+  RowBox[{"Sin", "[", 
+   RowBox[{"3", "+", 
+    SuperscriptBox["2", "x"]}], "]"}]}]], "Output",
+ CellChangeTimes->{3.8979931584284153`*^9, 3.897993208502828*^9},
+ CellLabel->
+  "Out[150]=",ExpressionUUID->"cce6edf7-e84b-4c4c-8937-b86e24c9c28d"],
+
+Cell[BoxData[
+ RowBox[{
+  SuperscriptBox["\[Pi]", "5"], "+", 
+  SuperscriptBox["y", "5"], "+", 
+  RowBox[{"Sin", "[", "35", "]"}]}]], "Output",
+ CellChangeTimes->{3.8979931584284153`*^9, 3.897993209030781*^9},
+ CellLabel->
+  "Out[151]=",ExpressionUUID->"b5fc160e-fa7a-446a-8b11-5aed213e42ae"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
@@ -460,6 +524,15 @@ Cell[3015, 97, 164, 3, 35, "Text",ExpressionUUID->"09e5d39b-8e5e-486b-a561-96505
 Cell[CellGroupData[{
 Cell[3204, 104, 207, 4, 28, "Input",ExpressionUUID->"9361e137-2d57-438a-a070-706e9b7b2390"],
 Cell[3414, 110, 12965, 308, 120, "Output",ExpressionUUID->"c3a22536-c519-4ca2-be3b-17099aa00d93"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[16416, 423, 340, 9, 28, "Input",ExpressionUUID->"8b4010a1-9387-4eef-a3ef-526dda26a4a1"],
+Cell[16759, 434, 331, 9, 34, "Output",ExpressionUUID->"d5b69813-c777-46f3-838b-4432e57360fd"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[17127, 448, 566, 14, 67, "Input",ExpressionUUID->"9fabe664-fed1-4de6-b00b-def74aec3e4a"],
+Cell[17696, 464, 355, 9, 34, "Output",ExpressionUUID->"cce6edf7-e84b-4c4c-8937-b86e24c9c28d"],
+Cell[18054, 475, 292, 7, 32, "Output",ExpressionUUID->"b5fc160e-fa7a-446a-8b11-5aed213e42ae"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
