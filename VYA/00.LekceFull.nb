@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    768774,      18518]
-NotebookOptionsPosition[    733880,      17953]
-NotebookOutlinePosition[    734289,      17969]
-CellTagsIndexPosition[    734246,      17966]
+NotebookDataLength[    771693,      18594]
+NotebookOptionsPosition[    736201,      18018]
+NotebookOutlinePosition[    736610,      18034]
+CellTagsIndexPosition[    736567,      18031]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -17947,6 +17947,71 @@ apply. The default for \!\(\*StyleBox[\"val\", \"TI\"]\) is 0. ",
  CellChangeTimes->{3.898277482115507*^9},
  CellLabel->"Out[51]=",ExpressionUUID->"a786a208-384c-4b89-b8dd-812919dd4ea0"]
 }, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Form\[AAcute]ty parametr\[URing]", "Subsection",
+ CellChangeTimes->{{3.8982870504590917`*^9, 
+  3.898287054712472*^9}},ExpressionUUID->"a57f03b4-9ef9-4765-9dc1-\
+39ef31fd7bde"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"ClearAll", "[", "a", "]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"a", "[", 
+   RowBox[{"{", 
+    RowBox[{"x_", ",", " ", "y_"}], "}"}], "]"}], " ", ":=", " ", 
+  RowBox[{"x", " ", "+", " ", "y"}]}], "\[IndentingNewLine]", 
+ RowBox[{"a", "[", 
+  RowBox[{"{", 
+   RowBox[{"Pi", ",", " ", 
+    RowBox[{"2", "E"}]}], "}"}], "]"}]}], "Input",
+ CellChangeTimes->{{3.898287062599656*^9, 3.89828706707867*^9}, {
+  3.8982871026858835`*^9, 3.8982871340819783`*^9}},
+ CellLabel->"In[54]:=",ExpressionUUID->"d629d4bb-c2ac-4178-9931-844af5f76a4b"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"2", " ", "\[ExponentialE]"}], "+", "\[Pi]"}]], "Output",
+ CellChangeTimes->{3.8982871359319906`*^9},
+ CellLabel->"Out[56]=",ExpressionUUID->"c5a68dc8-4694-4fd0-b004-503874d76200"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\[CapitalUAcute]kol 2", "Subsection",
+ CellChangeTimes->{{3.90040377617307*^9, 3.9004037767632637`*^9}, {
+  3.9011223308927917`*^9, 
+  3.901122331083289*^9}},ExpressionUUID->"fee14c1e-a403-4d8e-9248-\
+bed7374d9c1c"],
+
+Cell[TextData[{
+ "l---",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["o", "vp"], TraditionalForm]],ExpressionUUID->
+  "8b70276a-90cc-4ebf-b0b7-2f1d556d54d3"],
+ "----------",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["i", "vc"], TraditionalForm]],ExpressionUUID->
+  "e02518e4-c416-4b43-a2dc-0bdbcd5f90c0"],
+ "-->   o-pavouk, i-\[CHacek]lov\[EHacek]k\nDiferenci\[AAcute]ln\[IAcute] \
+rovnice\n\[CapitalCHacek]lov\[EHacek]k ut\[IAcute]k\[AAcute] od st\[EHacek]ny \
+s n\[IAcute]\[ZHacek] je spojen\[YAcute] leteckou gumou, \
+ut\[IAcute]k\[AAcute] p\[RHacek]ed pavoukem kter\[YAcute] leze po \
+gum\[EHacek] sm\[EHacek]rem k n\[EHacek]mu\nvc - rychlost \[CHacek]lov\
+\[EHacek]ka, v\[URing]\[CHacek]i absolutn\[IAcute]mu prostoru\nvp - rychlost \
+pavouka,  v\[URing]\[CHacek]i gum\[EHacek]"
+}], "Text",
+ CellChangeTimes->{{3.900403811150326*^9, 3.9004039859525414`*^9}, {
+  3.90040401888559*^9, 3.900404028575347*^9}, {3.900404072053151*^9, 
+  3.9004040879452662`*^9}},ExpressionUUID->"3af4bf36-4b62-40a7-8f54-\
+85a743175803"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
@@ -18517,6 +18582,17 @@ Cell[CellGroupData[{
 Cell[716278, 17564, 199, 3, 28, "Input",ExpressionUUID->"bbd09bbb-60c7-46e3-979d-7dc1c86d0714"],
 Cell[716480, 17569, 17348, 378, 171, "Output",ExpressionUUID->"a786a208-384c-4b89-b8dd-812919dd4ea0"]
 }, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[733877, 17953, 182, 3, 54, "Subsection",ExpressionUUID->"a57f03b4-9ef9-4765-9dc1-39ef31fd7bde"],
+Cell[CellGroupData[{
+Cell[734084, 17960, 566, 13, 67, "Input",ExpressionUUID->"d629d4bb-c2ac-4178-9931-844af5f76a4b"],
+Cell[734653, 17975, 214, 4, 32, "Output",ExpressionUUID->"c5a68dc8-4694-4fd0-b004-503874d76200"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[734916, 17985, 221, 4, 54, "Subsection",ExpressionUUID->"fee14c1e-a403-4d8e-9248-bed7374d9c1c"],
+Cell[735140, 17991, 1021, 22, 150, "Text",ExpressionUUID->"3af4bf36-4b62-40a7-8f54-85a743175803"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
