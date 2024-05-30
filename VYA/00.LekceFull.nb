@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   1242509,      29343]
-NotebookOptionsPosition[   1188045,      28451]
-NotebookOutlinePosition[   1188453,      28467]
-CellTagsIndexPosition[   1188410,      28464]
+NotebookDataLength[   1243541,      29369]
+NotebookOptionsPosition[   1188842,      28473]
+NotebookOutlinePosition[   1189250,      28489]
+CellTagsIndexPosition[   1189207,      28486]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -28445,6 +28445,28 @@ SuperscriptBox[\\\"n\\\", \\\"4\\\"]], TraditionalForm]\\)\"",
  CellLabel->
   "Out[288]=",ExpressionUUID->"f3830014-cae7-4917-aa13-ede52ae462ba"]
 }, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\[CapitalUAcute]kol 4", "Subsection",
+ CellChangeTimes->{{3.9004109376397943`*^9, 3.9004109381225386`*^9}, {
+  3.9004133365241404`*^9, 3.9004133426534033`*^9}, {3.900413867404101*^9, 
+  3.900413871928935*^9}},ExpressionUUID->"17898344-c381-4395-83df-\
+cbf03f3e55da"],
+
+Cell["\<\
+https://youtu.be/63ocOSAF1gI?si=WfSZFMYCMfjLoHZ8&t=3153
+Naprogramuj funkci, ktera si vezme n_Integer a odvodi vztah pro numerick\
+\[YAcute] integral
+n = 1 je lichobe\[ZHacek]n\[IAcute]kov\[AAcute] metoda
+n = 2 je Simpsonova metoda
+atd..\
+\>", "Text",
+ CellChangeTimes->{{3.900413802508669*^9, 3.9004138410519276`*^9}, {
+  3.900413903031531*^9, 3.9004139071300216`*^9}, {3.900413991563473*^9, 
+  3.900414044028945*^9}},ExpressionUUID->"eb555c6d-b473-4648-8ae9-\
+61581f24bc02"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
@@ -29342,6 +29364,10 @@ Cell[1176029, 28202, 500, 12, 48, "Output",ExpressionUUID->"427f44f6-f57b-458b-b
 Cell[1176532, 28216, 340, 5, 32, "Output",ExpressionUUID->"43776e57-7cfb-40c9-9817-46b37830dcf2"],
 Cell[1176875, 28223, 11118, 222, 259, "Output",ExpressionUUID->"f3830014-cae7-4917-aa13-ede52ae462ba"]
 }, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1188042, 28451, 272, 4, 54, "Subsection",ExpressionUUID->"17898344-c381-4395-83df-cbf03f3e55da"],
+Cell[1188317, 28457, 485, 11, 127, "Text",ExpressionUUID->"eb555c6d-b473-4648-8ae9-61581f24bc02"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
