@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    144178,       3247]
-NotebookOptionsPosition[    138712,       3147]
-NotebookOutlinePosition[    139121,       3163]
-CellTagsIndexPosition[    139078,       3160]
+NotebookDataLength[    145298,       3275]
+NotebookOptionsPosition[    139601,       3171]
+NotebookOutlinePosition[    140010,       3187]
+CellTagsIndexPosition[    139967,       3184]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -3141,6 +3141,30 @@ JS/yd36ehp427vvXeJU4+j8qefdy
  CellLabel->
   "Out[1032]=",ExpressionUUID->"687390e9-a734-49a4-aa34-f124bcb65dff"]
 }, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["RLC a Elektrick\[EAcute] Obvody", "Subsection",
+ CellChangeTimes->{{3.900521881598633*^9, 
+  3.9005218995197945`*^9}},ExpressionUUID->"d89e3c8b-fe83-4cde-b4ea-\
+9a87266425aa"],
+
+Cell["\<\
+ Ohm\[URing]v z\[AAcute]kon - U = I * R
+Elek. nap\[EHacek]t\[IAcute] - U [Volt] = Rozd\[IAcute]l potenci\[AAcute]l\
+\[URing] mezi dv\[EHacek]ma body
+Elek. proud - I [Amper] = Pohyb elek. za \[CHacek]as
+Elek. odpor - R [Ohm]  = Vlastnost materi\[AAcute]lu br\[AAcute]n\[IAcute]c\
+\[IAcute] pr\[URing]chodu elek. proudu
+\
+\>", "Text",
+ CellChangeTimes->{
+  3.900522244924099*^9, {3.9005226634740076`*^9, 3.900522719162507*^9}, {
+   3.900523192966151*^9, 3.900523271392992*^9}, {3.900523321291005*^9, 
+   3.9005233514077325`*^9}, 3.900524850102418*^9, {3.9005304749211793`*^9, 
+   3.900530512933503*^9}},ExpressionUUID->"acf5296e-63ce-46cb-a9de-\
+5572f69e0523"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
@@ -3246,6 +3270,10 @@ Cell[126906, 2884, 1645, 45, 110, "Input",ExpressionUUID->"391bd436-294d-4b47-96
 Cell[128554, 2931, 484, 10, 32, "Output",ExpressionUUID->"6d569cb5-acb9-4a6a-964d-b41c20cf398b"],
 Cell[129041, 2943, 9619, 198, 248, "Output",ExpressionUUID->"687390e9-a734-49a4-aa34-f124bcb65dff"]
 }, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[138709, 3147, 181, 3, 54, "Subsection",ExpressionUUID->"d89e3c8b-fe83-4cde-b4ea-9a87266425aa"],
+Cell[138893, 3152, 668, 14, 127, "Text",ExpressionUUID->"acf5296e-63ce-46cb-a9de-5572f69e0523"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
