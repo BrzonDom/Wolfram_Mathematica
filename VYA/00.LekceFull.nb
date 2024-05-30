@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   1243541,      29369]
-NotebookOptionsPosition[   1188842,      28473]
-NotebookOutlinePosition[   1189250,      28489]
-CellTagsIndexPosition[   1189207,      28486]
+NotebookDataLength[   1275925,      30066]
+NotebookOptionsPosition[   1220420,      29157]
+NotebookOutlinePosition[   1220828,      29173]
+CellTagsIndexPosition[   1220785,      29170]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -28467,6 +28467,690 @@ atd..\
   3.900413903031531*^9, 3.9004139071300216`*^9}, {3.900413991563473*^9, 
   3.900414044028945*^9}},ExpressionUUID->"eb555c6d-b473-4648-8ae9-\
 61581f24bc02"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Fit a Metoda nejmen\[SHacek]\[IAcute]", "Subsection",
+ CellChangeTimes->{{3.9004144632357087`*^9, 
+  3.900414472333579*^9}},ExpressionUUID->"7040fbf7-5561-4eaa-8fd6-\
+203d74fe258b"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Quiet", "[", 
+   RowBox[{"Remove", "[", "\"\<Global`*\>\"", "]"}], "]"}], ";"}]], "Input",
+ CellChangeTimes->{{3.900520806153931*^9, 3.900520806922082*^9}},
+ CellLabel->
+  "In[1022]:=",ExpressionUUID->"d6ff4122-3cdb-47f0-8ad4-a0d9bef97da0"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"?", "Fit"}]], "Input",
+ CellChangeTimes->{{3.900520808783941*^9, 3.900520810029084*^9}},
+ CellLabel->
+  "In[292]:=",ExpressionUUID->"ea99c405-79cf-4c29-b866-05d1c675c9d5"],
+
+Cell[BoxData[
+ InterpretationBox[
+  StyleBox[
+   FrameBox[
+    DynamicModuleBox[{System`InformationDump`open$$ = False, 
+     System`InformationDump`mouseOver$$ = False}, 
+     PaneSelectorBox[{True->
+      TagBox[GridBox[{
+         {
+          ItemBox[
+           PaneBox[
+            StyleBox["\<\" Symbol\"\>", "InformationTitleText",
+             StripOnInput->False,
+             BaseStyle -> None],
+            FrameMargins->{{4, 0}, {-1, 1}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], 
+          ItemBox[
+           PaneBox[
+            TooltipBox[
+             ButtonBox[
+              PaneSelectorBox[{False->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIcon"]], True->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIconHot"]]}, Dynamic[
+                CurrentValue["MouseOver"]]],
+              Appearance->None,
+              BaseStyle->"Link",
+              ButtonData->"paclet:ref/Fit",
+              ButtonNote->"paclet:ref/Fit"],
+             "\"paclet:ref/Fit\""],
+            FrameMargins->{{0, 4}, {0, 2}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False]},
+         {
+          ItemBox[
+           PaneBox[
+            
+            StyleBox["\<\"\\!\\(\\*RowBox[{\\\"Fit\\\", \\\"[\\\", \
+RowBox[{StyleBox[\\\"data\\\", \\\"TI\\\"], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{SubscriptBox[StyleBox[\\\"f\\\", \\\"TI\\\"], StyleBox[\\\"1\\\", \
+\\\"TR\\\"]], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \\\"TR\\\"], \
+\\\",\\\", SubscriptBox[StyleBox[\\\"f\\\", \\\"TI\\\"], StyleBox[\\\"n\\\", \
+\\\"TI\\\"]]}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{StyleBox[\\\"x\\\", \\\"TI\\\"], \\\",\\\", StyleBox[\\\"y\\\", \
+\\\"TI\\\"], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \\\"TR\\\"]}], \
+\\\"}\\\"}]}], \\\"]\\\"}]\\) finds a fit \
+\\!\\(\\*RowBox[{RowBox[{SubscriptBox[StyleBox[\\\"a\\\", \\\"TI\\\"], \
+StyleBox[\\\"1\\\", \\\"TR\\\"]], \\\"\[InvisibleTimes]\\\", \
+SubscriptBox[StyleBox[\\\"f\\\", \\\"TI\\\"], StyleBox[\\\"1\\\", \
+\\\"TR\\\"]]}], \\\"+\\\", StyleBox[\\\"\[Ellipsis]\\\", \\\"TR\\\"], \\\"+\\\
+\", RowBox[{SubscriptBox[StyleBox[\\\"a\\\", \\\"TI\\\"], StyleBox[\\\"n\\\", \
+\\\"TI\\\"]], \\\"\[InvisibleTimes]\\\", SubscriptBox[StyleBox[\\\"f\\\", \
+\\\"TI\\\"], StyleBox[\\\"n\\\", \\\"TI\\\"]]}]}]\\) to a list of \
+\\!\\(\\*StyleBox[\\\"data\\\", \\\"TI\\\"]\\) for functions\\!\\(\\*RowBox[{\
+\\\" \\\", RowBox[{SubscriptBox[StyleBox[\\\"f\\\", \\\"TI\\\"], \
+StyleBox[\\\"1\\\", \\\"TR\\\"]], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \\\
+\"TR\\\"], \\\",\\\", SubscriptBox[StyleBox[\\\"f\\\", \\\"TI\\\"], StyleBox[\
+\\\"n\\\", \\\"TI\\\"]]}]}]\\) of variables \\!\\(\\*RowBox[{\\\"{\\\", \
+RowBox[{StyleBox[\\\"x\\\", \\\"TI\\\"], \\\",\\\", StyleBox[\\\"y\\\", \
+\\\"TI\\\"], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \\\"TR\\\"]}], \
+\\\"}\\\"}]\\). \\n\\!\\(\\*RowBox[{\\\"Fit\\\", \\\"[\\\", \
+RowBox[{\\\"{\\\", RowBox[{StyleBox[\\\"m\\\", \\\"TI\\\"], \\\",\\\", \
+StyleBox[\\\"v\\\", \\\"TI\\\"]}], \\\"}\\\"}], \\\"]\\\"}]\\) finds a fit \
+vector \\!\\(\\*StyleBox[\\\"a\\\", \\\"TI\\\"]\\) that minimizes \
+\\!\\(\\*RowBox[{\\\"||\\\", RowBox[{RowBox[{\\\"m\\\", \\\".\\\", \
+\\\"a\\\"}], \\\"-\\\", \\\"v\\\"}], \\\"||\\\"}]\\) for a design matrix \
+\\!\\(\\*StyleBox[\\\"m\\\", \\\"TI\\\"]\\).\\n\\!\\(\\*RowBox[{\\\"Fit\\\", \
+\\\"[\\\", RowBox[{StyleBox[\\\"\[Ellipsis]\\\", \\\"TR\\\"], \\\",\\\", \
+StyleBox[\\\"\\\\\\\"\\\\!\\\\(\\\\*StyleBox[\\\\\\\"prop\\\\\\\",\\\\\\\"TI\\\
+\\\\\"]\\\\)\\\\\\\"\\\", ShowStringCharacters->True]}], \\\"]\\\"}]\\) \
+specifies what fit property \\!\\(\\*StyleBox[\\\"prop\\\", \\\"TI\\\"]\\) \
+should be returned.\"\>", "InformationUsageText",
+             StripOnInput->False,
+             LineSpacing->{1.5, 1.5, 3.}],
+            FrameMargins->{{10, 10}, {8, 10}}],
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False], 
+          ItemBox["\<\"\"\>",
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False]},
+         {
+          PaneBox[GridBox[{
+             {
+              
+              DynamicModuleBox[{System`InformationDump`open$$ = {
+               False, False, False, False, False, False}}, 
+               StyleBox[GridBox[{
+                  {
+                   TagBox[
+                    TooltipBox[
+                    StyleBox["\<\" Documentation\"\>", "InformationRowLabel",
+                    StripOnInput->False],
+                    "\"Documentation\"",
+                    TooltipStyle->"TextStyling"],
+                    Annotation[#, "Documentation", "Tooltip"]& ], 
+                   TemplateBox[{
+                    
+                    TemplateBox[{
+                    "\"Local \[RightGuillemet]\"", "paclet:ref/Fit", 
+                    "paclet:ref/Fit", "Link", {
+                    RGBColor[0.9686274509803922, 0.4666666666666667, 0.]}, 
+                    BaseStyle -> {
+                    RGBColor[0.0784313725490196, 0.1568627450980392, 0.6]}}, 
+                    "HyperlinkTemplate"], "\"  \"", 
+                    StyleBox[
+                    "\"|\"", "InformationRowLabel", StripOnInput -> False], 
+                    "\"  \"", 
+                    TemplateBox[{"\"Web \[RightGuillemet]\"", {
+                    URL["http://reference.wolfram.com/language/ref/Fit.html"],
+                     None}, 
+                    "http://reference.wolfram.com/language/ref/Fit.html", 
+                    "Hyperlink", {
+                    RGBColor[0.9686274509803922, 0.4666666666666667, 0.]}, 
+                    BaseStyle -> {
+                    RGBColor[0.0784313725490196, 0.1568627450980392, 0.6]}}, 
+                    "HyperlinkTemplate"]},
+                    "RowDefault"]},
+                  {
+                   TagBox[
+                    TooltipBox[
+                    StyleBox["\<\" Options\"\>", "InformationRowLabel",
+                    StripOnInput->False],
+                    "\"Options\"",
+                    TooltipStyle->"TextStyling"],
+                    Annotation[#, "Options", "Tooltip"]& ], 
+                   RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"FitRegularization", "\[Rule]", "None"}], ",", 
+                    RowBox[{"NormFunction", "\[Rule]", "Automatic"}], ",", 
+                    RowBox[{"WorkingPrecision", "\[Rule]", "Automatic"}]}], 
+                    "}"}]},
+                  {
+                   TagBox[
+                    TooltipBox[
+                    StyleBox["\<\" Attributes\"\>", "InformationRowLabel",
+                    StripOnInput->False],
+                    "\"Attributes\"",
+                    TooltipStyle->"TextStyling"],
+                    Annotation[#, "Attributes", "Tooltip"]& ], 
+                   RowBox[{"{", "Protected", "}"}]},
+                  {
+                   TagBox[
+                    TooltipBox[
+                    StyleBox["\<\" Full Name\"\>", "InformationRowLabel",
+                    StripOnInput->False],
+                    "\"FullName\"",
+                    TooltipStyle->"TextStyling"],
+                    
+                    Annotation[#, "FullName", 
+                    "Tooltip"]& ], "\<\"System`Fit\"\>"}
+                 },
+                 AutoDelete->False,
+                 GridBoxAlignment->{"Columns" -> {Right, Left}},
+                 GridBoxDividers->None,
+                 GridBoxItemSize->{"Columns" -> {Automatic, Automatic}},
+                 GridBoxSpacings->{"Columns" -> {
+                    Offset[0.27999999999999997`], {
+                    Offset[0.5599999999999999]}, 
+                    Offset[0.27999999999999997`]}, "Rows" -> {
+                    Offset[0.2], {
+                    Offset[0.8]}, 
+                    Offset[0.2]}}], "DialogStyle",
+                StripOnInput->False],
+               DynamicModuleValues:>{}]}
+            },
+            DefaultBaseStyle->"Column",
+            GridBoxAlignment->{"Columns" -> {{Left}}},
+            GridBoxDividers->{"Columns" -> {{False}}, "Rows" -> {{False}}},
+            
+            GridBoxItemSize->{
+             "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+            GridBoxSpacings->{"Columns" -> {
+                Offset[0.27999999999999997`], {
+                 Offset[0.5599999999999999]}, 
+                Offset[0.27999999999999997`]}, "Rows" -> {
+                Offset[0.2], {
+                 Offset[3.6]}, 
+                Offset[0.2]}}],
+           FrameMargins->{{6, 6}, {6, 3}}], ""},
+         {
+          ItemBox[
+           TagBox[
+            ButtonBox[
+             PaneSelectorBox[{False->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "UpPointerOpener"]], True->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "UpPointerOpenerHot"]]}, Dynamic[
+              System`InformationDump`mouseOver$$]],
+             Alignment->Left,
+             Appearance->{"Default" -> None},
+             
+             ButtonFunction:>FEPrivate`Set[
+              System`InformationDump`open$$, False],
+             Evaluator->Automatic,
+             FrameMargins->{{9, 0}, {0, 0}},
+             ImageMargins->0,
+             ImageSize->Full,
+             Method->"Preemptive"],
+            
+            EventHandlerTag[{
+             "MouseEntered" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, True], 
+              "MouseExited" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, False], 
+              Method -> "Preemptive", PassEventsDown -> Automatic, 
+              PassEventsUp -> True}]],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], "\[SpanFromLeft]"}
+        },
+        AutoDelete->False,
+        FrameStyle->Directive[
+          GrayLevel[0.8], 
+          Thickness[Tiny]],
+        GridBoxAlignment->{"Columns" -> {Left, Right}, "Rows" -> {{Center}}},
+        GridBoxDividers->{
+         "Columns" -> {{None}}, "Rows" -> {False, {True}, False}},
+        GridBoxItemSize->{
+         "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+       "Grid"], False->
+      TagBox[GridBox[{
+         {
+          ItemBox[
+           PaneBox[
+            StyleBox["\<\" Symbol\"\>", "InformationTitleText",
+             StripOnInput->False],
+            FrameMargins->{{4, 0}, {-1, 1}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], 
+          ItemBox[
+           PaneBox[
+            TooltipBox[
+             ButtonBox[
+              PaneSelectorBox[{False->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIcon"],
+                ImageSizeCache->{13., {4., 9.}}], True->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIconHot"],
+                ImageSizeCache->{13., {4., 9.}}]}, Dynamic[
+                CurrentValue["MouseOver"]]],
+              Appearance->None,
+              BaseStyle->"Link",
+              ButtonData->"paclet:ref/Fit",
+              ButtonNote->"paclet:ref/Fit"],
+             "\"paclet:ref/Fit\""],
+            FrameMargins->{{0, 4}, {0, 2}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False]},
+         {
+          ItemBox[
+           PaneBox[
+            
+            StyleBox["\<\"\\!\\(\\*RowBox[{\\\"Fit\\\", \\\"[\\\", \
+RowBox[{StyleBox[\\\"data\\\", \\\"TI\\\"], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{SubscriptBox[StyleBox[\\\"f\\\", \\\"TI\\\"], StyleBox[\\\"1\\\", \
+\\\"TR\\\"]], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \\\"TR\\\"], \
+\\\",\\\", SubscriptBox[StyleBox[\\\"f\\\", \\\"TI\\\"], StyleBox[\\\"n\\\", \
+\\\"TI\\\"]]}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{StyleBox[\\\"x\\\", \\\"TI\\\"], \\\",\\\", StyleBox[\\\"y\\\", \
+\\\"TI\\\"], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \\\"TR\\\"]}], \
+\\\"}\\\"}]}], \\\"]\\\"}]\\) finds a fit \
+\\!\\(\\*RowBox[{RowBox[{SubscriptBox[StyleBox[\\\"a\\\", \\\"TI\\\"], \
+StyleBox[\\\"1\\\", \\\"TR\\\"]], \\\"\[InvisibleTimes]\\\", \
+SubscriptBox[StyleBox[\\\"f\\\", \\\"TI\\\"], StyleBox[\\\"1\\\", \
+\\\"TR\\\"]]}], \\\"+\\\", StyleBox[\\\"\[Ellipsis]\\\", \\\"TR\\\"], \\\"+\\\
+\", RowBox[{SubscriptBox[StyleBox[\\\"a\\\", \\\"TI\\\"], StyleBox[\\\"n\\\", \
+\\\"TI\\\"]], \\\"\[InvisibleTimes]\\\", SubscriptBox[StyleBox[\\\"f\\\", \
+\\\"TI\\\"], StyleBox[\\\"n\\\", \\\"TI\\\"]]}]}]\\) to a list of \
+\\!\\(\\*StyleBox[\\\"data\\\", \\\"TI\\\"]\\) for functions\\!\\(\\*RowBox[{\
+\\\" \\\", RowBox[{SubscriptBox[StyleBox[\\\"f\\\", \\\"TI\\\"], \
+StyleBox[\\\"1\\\", \\\"TR\\\"]], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \\\
+\"TR\\\"], \\\",\\\", SubscriptBox[StyleBox[\\\"f\\\", \\\"TI\\\"], StyleBox[\
+\\\"n\\\", \\\"TI\\\"]]}]}]\\) of variables \\!\\(\\*RowBox[{\\\"{\\\", \
+RowBox[{StyleBox[\\\"x\\\", \\\"TI\\\"], \\\",\\\", StyleBox[\\\"y\\\", \
+\\\"TI\\\"], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \\\"TR\\\"]}], \
+\\\"}\\\"}]\\). \\n\\!\\(\\*RowBox[{\\\"Fit\\\", \\\"[\\\", \
+RowBox[{\\\"{\\\", RowBox[{StyleBox[\\\"m\\\", \\\"TI\\\"], \\\",\\\", \
+StyleBox[\\\"v\\\", \\\"TI\\\"]}], \\\"}\\\"}], \\\"]\\\"}]\\) finds a fit \
+vector \\!\\(\\*StyleBox[\\\"a\\\", \\\"TI\\\"]\\) that minimizes \
+\\!\\(\\*RowBox[{\\\"||\\\", RowBox[{RowBox[{\\\"m\\\", \\\".\\\", \
+\\\"a\\\"}], \\\"-\\\", \\\"v\\\"}], \\\"||\\\"}]\\) for a design matrix \
+\\!\\(\\*StyleBox[\\\"m\\\", \\\"TI\\\"]\\).\\n\\!\\(\\*RowBox[{\\\"Fit\\\", \
+\\\"[\\\", RowBox[{StyleBox[\\\"\[Ellipsis]\\\", \\\"TR\\\"], \\\",\\\", \
+StyleBox[\\\"\\\\\\\"\\\\!\\\\(\\\\*StyleBox[\\\\\\\"prop\\\\\\\",\\\\\\\"TI\\\
+\\\\\"]\\\\)\\\\\\\"\\\", ShowStringCharacters->True]}], \\\"]\\\"}]\\) \
+specifies what fit property \\!\\(\\*StyleBox[\\\"prop\\\", \\\"TI\\\"]\\) \
+should be returned.\"\>", "InformationUsageText",
+             StripOnInput->False,
+             LineSpacing->{1.5, 1.5, 3.}],
+            FrameMargins->{{10, 10}, {8, 10}}],
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False], 
+          ItemBox["\<\"\"\>",
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False]},
+         {
+          ItemBox[
+           TagBox[
+            ButtonBox[
+             PaneSelectorBox[{False->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "DownPointerOpener"],
+               ImageSizeCache->{10., {3., 7.}}], True->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "DownPointerOpenerHot"],
+               ImageSizeCache->{10., {3., 7.}}]}, Dynamic[
+              System`InformationDump`mouseOver$$]],
+             Alignment->Left,
+             Appearance->{"Default" -> None},
+             
+             ButtonFunction:>FEPrivate`Set[
+              System`InformationDump`open$$, True],
+             Evaluator->Automatic,
+             FrameMargins->{{9, 0}, {0, 0}},
+             ImageMargins->0,
+             ImageSize->Full,
+             Method->"Preemptive"],
+            
+            EventHandlerTag[{
+             "MouseEntered" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, True], 
+              "MouseExited" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, False], 
+              Method -> "Preemptive", PassEventsDown -> Automatic, 
+              PassEventsUp -> True}]],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], "\[SpanFromLeft]"}
+        },
+        AutoDelete->False,
+        FrameStyle->Directive[
+          GrayLevel[0.8], 
+          Thickness[Tiny]],
+        GridBoxAlignment->{"Columns" -> {Left, Right}, "Rows" -> {{Center}}},
+        GridBoxDividers->{
+         "Columns" -> {{None}}, "Rows" -> {False, {True}, False}},
+        GridBoxItemSize->{
+         "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+       "Grid"]}, Dynamic[System`InformationDump`open$$],
+      BaselinePosition->Baseline,
+      FrameMargins->0,
+      ImageSize->Automatic],
+     DynamicModuleValues:>{}],
+    BaseStyle->"InformationGridFrame",
+    StripOnInput->False], "InformationGridPlain",
+   StripOnInput->False],
+  InformationData[<|
+   "ObjectType" -> "Symbol", "Usage" -> 
+    "\!\(\*RowBox[{\"Fit\", \"[\", RowBox[{StyleBox[\"data\", \"TI\"], \",\", \
+RowBox[{\"{\", RowBox[{SubscriptBox[StyleBox[\"f\", \"TI\"], StyleBox[\"1\", \
+\"TR\"]], \",\", StyleBox[\"\[Ellipsis]\", \"TR\"], \",\", \
+SubscriptBox[StyleBox[\"f\", \"TI\"], StyleBox[\"n\", \"TI\"]]}], \"}\"}], \
+\",\", RowBox[{\"{\", RowBox[{StyleBox[\"x\", \"TI\"], \",\", StyleBox[\"y\", \
+\"TI\"], \",\", StyleBox[\"\[Ellipsis]\", \"TR\"]}], \"}\"}]}], \"]\"}]\) \
+finds a fit \!\(\*RowBox[{RowBox[{SubscriptBox[StyleBox[\"a\", \"TI\"], \
+StyleBox[\"1\", \"TR\"]], \"\[InvisibleTimes]\", SubscriptBox[StyleBox[\"f\", \
+\"TI\"], StyleBox[\"1\", \"TR\"]]}], \"+\", StyleBox[\"\[Ellipsis]\", \
+\"TR\"], \"+\", RowBox[{SubscriptBox[StyleBox[\"a\", \"TI\"], StyleBox[\"n\", \
+\"TI\"]], \"\[InvisibleTimes]\", SubscriptBox[StyleBox[\"f\", \"TI\"], \
+StyleBox[\"n\", \"TI\"]]}]}]\) to a list of \!\(\*StyleBox[\"data\", \
+\"TI\"]\) for functions\!\(\*RowBox[{\" \", RowBox[{SubscriptBox[StyleBox[\"f\
+\", \"TI\"], StyleBox[\"1\", \"TR\"]], \",\", StyleBox[\"\[Ellipsis]\", \
+\"TR\"], \",\", SubscriptBox[StyleBox[\"f\", \"TI\"], StyleBox[\"n\", \
+\"TI\"]]}]}]\) of variables \!\(\*RowBox[{\"{\", RowBox[{StyleBox[\"x\", \"TI\
+\"], \",\", StyleBox[\"y\", \"TI\"], \",\", StyleBox[\"\[Ellipsis]\", \
+\"TR\"]}], \"}\"}]\). \n\!\(\*RowBox[{\"Fit\", \"[\", RowBox[{\"{\", \
+RowBox[{StyleBox[\"m\", \"TI\"], \",\", StyleBox[\"v\", \"TI\"]}], \"}\"}], \
+\"]\"}]\) finds a fit vector \!\(\*StyleBox[\"a\", \"TI\"]\) that minimizes \
+\!\(\*RowBox[{\"||\", RowBox[{RowBox[{\"m\", \".\", \"a\"}], \"-\", \"v\"}], \
+\"||\"}]\) for a design matrix \!\(\*StyleBox[\"m\", \"TI\"]\).\n\
+\!\(\*RowBox[{\"Fit\", \"[\", RowBox[{StyleBox[\"\[Ellipsis]\", \"TR\"], \
+\",\", StyleBox[\"\\\"\\!\\(\\*StyleBox[\\\"prop\\\",\\\"TI\\\"]\\)\\\"\", \
+ShowStringCharacters->True]}], \"]\"}]\) specifies what fit property \
+\!\(\*StyleBox[\"prop\", \"TI\"]\) should be returned.", 
+    "Documentation" -> <|
+     "Local" -> "paclet:ref/Fit", "Web" -> 
+      "http://reference.wolfram.com/language/ref/Fit.html"|>, "OwnValues" -> 
+    None, "UpValues" -> None, "DownValues" -> None, "SubValues" -> None, 
+    "DefaultValues" -> None, "NValues" -> None, "FormatValues" -> None, 
+    "Options" -> {
+     FitRegularization -> None, NormFunction -> Automatic, WorkingPrecision -> 
+      Automatic}, "Attributes" -> {Protected}, "FullName" -> "System`Fit"|>, 
+   False]]], "Output",
+ CellChangeTimes->{3.9005208107108183`*^9},
+ CellLabel->
+  "Out[292]=",ExpressionUUID->"8a5d37b8-c933-4681-a1a6-8b851cfa01c0"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"Data", " ", "=", " ", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"#", ",", " ", 
+       RowBox[{
+        SuperscriptBox[
+         RowBox[{"(", 
+          RowBox[{"#", " ", "-", " ", "2"}], ")"}], "2"], " ", "+", " ", 
+        RowBox[{"RandomReal", "[", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"-", "0.1"}], ",", " ", "0.1"}], "}"}], "]"}]}]}], "}"}], 
+     " ", "&"}], " ", "/@", " ", 
+    RowBox[{"Range", "[", 
+     RowBox[{"0", ",", " ", "4", ",", " ", "0.2"}], "]"}]}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"Proklad", " ", "=", " ", 
+  RowBox[{"Fit", "[", 
+   RowBox[{"Data", ",", " ", 
+    RowBox[{"{", 
+     RowBox[{"1", ",", " ", "x", ",", " ", 
+      SuperscriptBox["x", "2"]}], "}"}], ",", " ", "x"}], 
+   "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"pltBody", " ", "=", " ", 
+   RowBox[{"ListPlot", "[", 
+    RowBox[{"Data", ",", " ", 
+     RowBox[{"PlotStyle", "->", "Red"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"pltProklad", " ", "=", " ", 
+   RowBox[{"Plot", "[", 
+    RowBox[{"Proklad", ",", " ", 
+     RowBox[{"{", 
+      RowBox[{"x", ",", " ", "0", ",", " ", "4"}], "}"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"Show", "[", 
+  RowBox[{"pltBody", ",", " ", "pltProklad"}], "]"}]}], "Input",
+ CellChangeTimes->{{3.9005207295744743`*^9, 3.900520803551881*^9}, {
+  3.9005210920090265`*^9, 3.9005211020016823`*^9}, {3.9005211338827047`*^9, 
+  3.9005212698372316`*^9}, {3.902153449534037*^9, 3.902153449722519*^9}},
+ CellLabel->
+  "In[1028]:=",ExpressionUUID->"17634ec8-a8b5-45e7-981b-2bde61189212"],
+
+Cell[BoxData[
+ RowBox[{"3.9846138164176015`", "\[VeryThinSpace]", "-", 
+  RowBox[{"4.004219304749041`", " ", "x"}], "+", 
+  RowBox[{"1.0037438865998043`", " ", 
+   SuperscriptBox["x", "2"]}]}]], "Output",
+ CellChangeTimes->{
+  3.9005207855234675`*^9, 3.9005211031643467`*^9, 3.9005211983797836`*^9, {
+   3.9005212295893655`*^9, 3.90052127320842*^9}, 3.902153417603999*^9, 
+   3.9021534502550917`*^9},
+ CellLabel->
+  "Out[1029]=",ExpressionUUID->"a344f19c-f3a5-459c-b2f6-618a42c27d2f"],
+
+Cell[BoxData[
+ GraphicsBox[{{{}, 
+    {RGBColor[1, 0, 0], PointSize[0.012833333333333334`], AbsoluteThickness[
+     1.6], PointBox[CompressedData["
+1:eJxTTMoPSmViYGAQBWIQDQO/2jcrL/EVcJg1EwRO2jepL7/0dSYnlH/T/uKz
+PbPSClgcTIxB4LG902Y1jm1W/+wh8i/tmVwP+T5U/GYPMe2DfYNA7uPdXm/t
+Ieo/20dMMHApXvzIPj0NBL7Zq/e8u55qfwuq/6e9Q9hh1SdnNtifPQMCf+wd
+bkabpmfugJrH4KBgGSF22nYGVD2jg/B1K4tftgeh5jM7pHJPv7Du6TGofhYH
+gwXyV5tzLkPtY3No2H4l54Txc6h5HA4BHus28U16CzWP02GaFN9u1fDvUPO4
+He72NWpqXvkPNY/H4Umq05XZnCwOEPP4HF7cWHpB9yWnA8Q8AYeiY/onwoHh
+BwCiD45n
+      "]]}, {{}, {}}}, {{{}, {}, 
+     TagBox[
+      {RGBColor[0.368417, 0.506779, 0.709798], AbsoluteThickness[1.6], 
+       Opacity[1.], LineBox[CompressedData["
+1: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
+JS/yd36ehp427vvXeJU4+j8qefdy
+        "]]},
+      Annotation[#, "Charting`Private`Tag$15732#1"]& ]}, {}}},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->{True, True},
+  AxesLabel->{None, None},
+  AxesOrigin->{0, 0},
+  DisplayFunction->Identity,
+  Frame->{{False, False}, {False, False}},
+  FrameLabel->{{None, None}, {None, None}},
+  FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+  GridLines->{None, None},
+  GridLinesStyle->Directive[
+    GrayLevel[0.5, 0.4]],
+  Method->{
+   "AxisPadding" -> Scaled[0.02], "DefaultBoundaryStyle" -> Automatic, 
+    "DefaultGraphicsInteraction" -> {
+     "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+      "Effects" -> {
+       "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+        "Droplines" -> {
+         "freeformCursorMode" -> True, 
+          "placement" -> {"x" -> "All", "y" -> "None"}}}}, "DefaultMeshStyle" -> 
+    AbsolutePointSize[6], "DefaultPlotStyle" -> {
+      Directive[
+       RGBColor[0.368417, 0.506779, 0.709798], 
+       AbsoluteThickness[1.6]], 
+      Directive[
+       RGBColor[0.880722, 0.611041, 0.142051], 
+       AbsoluteThickness[1.6]], 
+      Directive[
+       RGBColor[0.560181, 0.691569, 0.194885], 
+       AbsoluteThickness[1.6]], 
+      Directive[
+       RGBColor[0.922526, 0.385626, 0.209179], 
+       AbsoluteThickness[1.6]], 
+      Directive[
+       RGBColor[0.528488, 0.470624, 0.701351], 
+       AbsoluteThickness[1.6]], 
+      Directive[
+       RGBColor[0.772079, 0.431554, 0.102387], 
+       AbsoluteThickness[1.6]], 
+      Directive[
+       RGBColor[0.363898, 0.618501, 0.782349], 
+       AbsoluteThickness[1.6]], 
+      Directive[
+       RGBColor[1, 0.75, 0], 
+       AbsoluteThickness[1.6]], 
+      Directive[
+       RGBColor[0.647624, 0.37816, 0.614037], 
+       AbsoluteThickness[1.6]], 
+      Directive[
+       RGBColor[0.571589, 0.586483, 0.], 
+       AbsoluteThickness[1.6]], 
+      Directive[
+       RGBColor[0.915, 0.3325, 0.2125], 
+       AbsoluteThickness[1.6]], 
+      Directive[
+       RGBColor[0.40082222609352647`, 0.5220066643438841, 0.85], 
+       AbsoluteThickness[1.6]], 
+      Directive[
+       RGBColor[0.9728288904374106, 0.621644452187053, 0.07336199581899142], 
+       AbsoluteThickness[1.6]], 
+      Directive[
+       RGBColor[0.736782672705901, 0.358, 0.5030266573755369], 
+       AbsoluteThickness[1.6]], 
+      Directive[
+       RGBColor[0.28026441037696703`, 0.715, 0.4292089322474965], 
+       AbsoluteThickness[1.6]]}, "DomainPadding" -> Scaled[0.02], 
+    "PointSizeFunction" -> "SmallPointSize", "RangePadding" -> Scaled[0.05], 
+    "OptimizePlotMarkers" -> True, "OptimizePlotMarkers" -> True, 
+    "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+        Identity[
+         Part[#, 1]], 
+        Identity[
+         Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+        Identity[
+         Part[#, 1]], 
+        Identity[
+         Part[#, 2]]}& )}},
+  PlotRange->{{0, 4.}, {0, 4.075821454842293}},
+  PlotRangeClipping->True,
+  PlotRangePadding->{{
+     Scaled[0.02], 
+     Scaled[0.02]}, {
+     Scaled[0.02], 
+     Scaled[0.05]}},
+  Ticks->{Automatic, Automatic}]], "Output",
+ CellChangeTimes->{
+  3.9005207855234675`*^9, 3.9005211031643467`*^9, 3.9005211983797836`*^9, {
+   3.9005212295893655`*^9, 3.90052127320842*^9}, 3.902153417603999*^9, 
+   3.902153455960931*^9},
+ CellLabel->
+  "Out[1032]=",ExpressionUUID->"8bda9806-1702-4987-9254-787d7e76011c"]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
@@ -29368,6 +30052,19 @@ Cell[1176875, 28223, 11118, 222, 259, "Output",ExpressionUUID->"f3830014-cae7-49
 Cell[CellGroupData[{
 Cell[1188042, 28451, 272, 4, 54, "Subsection",ExpressionUUID->"17898344-c381-4395-83df-cbf03f3e55da"],
 Cell[1188317, 28457, 485, 11, 127, "Text",ExpressionUUID->"eb555c6d-b473-4648-8ae9-61581f24bc02"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1188839, 28473, 187, 3, 54, "Subsection",ExpressionUUID->"7040fbf7-5561-4eaa-8fd6-203d74fe258b"],
+Cell[1189029, 28478, 275, 6, 28, "Input",ExpressionUUID->"d6ff4122-3cdb-47f0-8ad4-a0d9bef97da0"],
+Cell[CellGroupData[{
+Cell[1189329, 28488, 195, 4, 28, "Input",ExpressionUUID->"ea99c405-79cf-4c29-b866-05d1c675c9d5"],
+Cell[1189527, 28494, 19050, 395, 171, "Output",ExpressionUUID->"8a5d37b8-c933-4681-a1a6-8b851cfa01c0"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1208614, 28894, 1645, 45, 110, "Input",ExpressionUUID->"17634ec8-a8b5-45e7-981b-2bde61189212"],
+Cell[1210262, 28941, 484, 10, 32, "Output",ExpressionUUID->"a344f19c-f3a5-459c-b2f6-618a42c27d2f"],
+Cell[1210749, 28953, 9619, 198, 248, "Output",ExpressionUUID->"8bda9806-1702-4987-9254-787d7e76011c"]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
