@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    321936,       7441]
-NotebookOptionsPosition[    307573,       7187]
-NotebookOutlinePosition[    307982,       7203]
-CellTagsIndexPosition[    307939,       7200]
+NotebookDataLength[    362130,       8315]
+NotebookOptionsPosition[    347169,       8050]
+NotebookOutlinePosition[    347578,       8066]
+CellTagsIndexPosition[    347535,       8063]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -7181,6 +7181,869 @@ Dzg=
    3.90036194372753*^9}},
  CellLabel->"Out[76]=",ExpressionUUID->"9293fc44-2d33-4baf-8f78-a24a1ce210cc"]
 }, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["NDSolve", "Subsection",
+ CellChangeTimes->{{3.9003620111365967`*^9, 
+  3.9003620144420667`*^9}},ExpressionUUID->"30f2c9b1-7b2e-40bd-8a93-\
+61f2c8d0436f"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"?", "NDSolve"}]], "Input",
+ CellChangeTimes->{{3.900362017416377*^9, 3.9003620206560116`*^9}},
+ CellLabel->"In[77]:=",ExpressionUUID->"a62345d3-bb5f-4047-8f8b-ed7026d29547"],
+
+Cell[BoxData[
+ InterpretationBox[
+  StyleBox[
+   FrameBox[
+    DynamicModuleBox[{System`InformationDump`open$$ = False, 
+     System`InformationDump`mouseOver$$ = False}, 
+     PaneSelectorBox[{True->
+      TagBox[GridBox[{
+         {
+          ItemBox[
+           PaneBox[
+            StyleBox["\<\" Symbol\"\>", "InformationTitleText",
+             StripOnInput->False,
+             BaseStyle -> None],
+            FrameMargins->{{4, 0}, {-1, 1}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], 
+          ItemBox[
+           PaneBox[
+            TooltipBox[
+             ButtonBox[
+              PaneSelectorBox[{False->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIcon"]], True->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIconHot"]]}, Dynamic[
+                CurrentValue["MouseOver"]]],
+              Appearance->None,
+              BaseStyle->"Link",
+              ButtonData->"paclet:ref/NDSolve",
+              ButtonNote->"paclet:ref/NDSolve"],
+             "\"paclet:ref/NDSolve\""],
+            FrameMargins->{{0, 4}, {0, 2}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False]},
+         {
+          ItemBox[
+           PaneBox[
+            
+            StyleBox["\<\"\\!\\(\\*RowBox[{\\\"NDSolve\\\", \\\"[\\\", \
+RowBox[{StyleBox[\\\"eqns\\\", \\\"TI\\\"], \\\",\\\", StyleBox[\\\"u\\\", \\\
+\"TI\\\"], \\\",\\\", RowBox[{\\\"{\\\", RowBox[{StyleBox[\\\"x\\\", \\\"TI\\\
+\"], \\\",\\\", SubscriptBox[StyleBox[\\\"x\\\", \\\"TI\\\"], \
+StyleBox[\\\"min\\\", \\\"TI\\\"]], \\\",\\\", \
+SubscriptBox[StyleBox[\\\"x\\\", \\\"TI\\\"], StyleBox[\\\"max\\\", \
+\\\"TI\\\"]]}], \\\"}\\\"}]}], \\\"]\\\"}]\\) finds a numerical solution to \
+the ordinary differential equations \\!\\(\\*StyleBox[\\\"eqns\\\", \
+\\\"TI\\\"]\\) for the function \\!\\(\\*StyleBox[\\\"u\\\", \\\"TI\\\"]\\) \
+with the independent variable \\!\\(\\*StyleBox[\\\"x\\\", \\\"TI\\\"]\\) in \
+the range \\!\\(\\*SubscriptBox[StyleBox[\\\"x\\\", \\\"TI\\\"], \
+StyleBox[\\\"min\\\", \\\"TI\\\"]]\\) to \\!\\(\\*SubscriptBox[StyleBox[\\\"x\
+\\\", \\\"TI\\\"], StyleBox[\\\"max\\\", \\\"TI\\\"]]\\). \
+\\n\\!\\(\\*RowBox[{\\\"NDSolve\\\", \\\"[\\\", \
+RowBox[{StyleBox[\\\"eqns\\\", \\\"TI\\\"], \\\",\\\", StyleBox[\\\"u\\\", \\\
+\"TI\\\"], \\\",\\\", RowBox[{\\\"{\\\", RowBox[{StyleBox[\\\"x\\\", \\\"TI\\\
+\"], \\\",\\\", SubscriptBox[StyleBox[\\\"x\\\", \\\"TI\\\"], \
+StyleBox[\\\"min\\\", \\\"TI\\\"]], \\\",\\\", \
+SubscriptBox[StyleBox[\\\"x\\\", \\\"TI\\\"], StyleBox[\\\"max\\\", \
+\\\"TI\\\"]]}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{StyleBox[\\\"y\\\", \\\"TI\\\"], \\\",\\\", \
+SubscriptBox[StyleBox[\\\"y\\\", \\\"TI\\\"], StyleBox[\\\"min\\\", \
+\\\"TI\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"y\\\", \\\"TI\\\"], \
+StyleBox[\\\"max\\\", \\\"TI\\\"]]}], \\\"}\\\"}]}], \\\"]\\\"}]\\) solves \
+the partial differential equations \\!\\(\\*StyleBox[\\\"eqns\\\", \
+\\\"TI\\\"]\\) over a rectangular region.\\n\\!\\(\\*RowBox[{\\\"NDSolve\\\", \
+\\\"[\\\", RowBox[{StyleBox[\\\"eqns\\\", \\\"TI\\\"], \\\",\\\", StyleBox[\\\
+\"u\\\", \\\"TI\\\"], \\\",\\\", RowBox[{RowBox[{\\\"{\\\", RowBox[{StyleBox[\
+\\\"x\\\", \\\"TI\\\"], \\\",\\\", StyleBox[\\\"y\\\", \\\"TI\\\"]}], \\\"}\\\
+\"}], StyleBox[\\\"\[Element]\\\", \\\"TR\\\"], \
+StyleBox[\\\"\[CapitalOmega]\\\", \\\"TR\\\"]}]}], \\\"]\\\"}]\\) solves the \
+partial differential equations \\!\\(\\*StyleBox[\\\"eqns\\\", \\\"TI\\\"]\\) \
+over the region \\!\\(\\*StyleBox[\\\"\[CapitalOmega]\\\", \\\"TR\\\"]\\).\\n\
+\\!\\(\\*RowBox[{\\\"NDSolve\\\", \\\"[\\\", RowBox[{StyleBox[\\\"eqns\\\", \
+\\\"TI\\\"], \\\",\\\", StyleBox[\\\"u\\\", \\\"TI\\\"], \\\",\\\", \
+RowBox[{\\\"{\\\", RowBox[{StyleBox[\\\"t\\\", \\\"TI\\\"], \\\",\\\", \
+SubscriptBox[StyleBox[\\\"t\\\", \\\"TI\\\"], StyleBox[\\\"min\\\", \
+\\\"TI\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"t\\\", \\\"TI\\\"], \
+StyleBox[\\\"max\\\", \\\"TI\\\"]]}], \\\"}\\\"}], \\\",\\\", \
+RowBox[{RowBox[{\\\"{\\\", RowBox[{StyleBox[\\\"x\\\", \\\"TI\\\"], \
+\\\",\\\", StyleBox[\\\"y\\\", \\\"TI\\\"]}], \\\"}\\\"}], StyleBox[\\\"\
+\[Element]\\\", \\\"TR\\\"], StyleBox[\\\"\[CapitalOmega]\\\", \
+\\\"TR\\\"]}]}], \\\"]\\\"}]\\) solves the time-dependent partial \
+differential equations \\!\\(\\*StyleBox[\\\"eqns\\\", \\\"TI\\\"]\\) over \
+the region \\!\\(\\*StyleBox[\\\"\[CapitalOmega]\\\", \
+\\\"TR\\\"]\\).\\n\\!\\(\\*RowBox[{\\\"NDSolve\\\", \\\"[\\\", \
+RowBox[{StyleBox[\\\"eqns\\\", \\\"TI\\\"], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{SubscriptBox[StyleBox[\\\"u\\\", \\\"TI\\\"], StyleBox[\\\"1\\\", \
+\\\"TR\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"u\\\", \\\"TI\\\"], \
+StyleBox[\\\"2\\\", \\\"TR\\\"]], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \\\
+\"TR\\\"]}], \\\"}\\\"}], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \
+\\\"TR\\\"]}], \\\"]\\\"}]\\) solves for the \
+functions\[NonBreakingSpace]\\!\\(\\*SubscriptBox[StyleBox[\\\"u\\\", \
+\\\"TI\\\"], StyleBox[\\\"i\\\", \\\"TI\\\"]]\\). \"\>", 
+             "InformationUsageText",
+             StripOnInput->False,
+             LineSpacing->{1.5, 1.5, 3.}],
+            FrameMargins->{{10, 10}, {8, 10}}],
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False], 
+          ItemBox["\<\"\"\>",
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False]},
+         {
+          PaneBox[GridBox[{
+             {
+              
+              DynamicModuleBox[{System`InformationDump`open$$ = {
+               False, False, False, False, False, False}}, 
+               StyleBox[GridBox[{
+                  {
+                   TagBox[
+                    TooltipBox[
+                    StyleBox["\<\" Documentation\"\>", "InformationRowLabel",
+                    StripOnInput->False],
+                    "\"Documentation\"",
+                    TooltipStyle->"TextStyling"],
+                    Annotation[#, "Documentation", "Tooltip"]& ], 
+                   TemplateBox[{
+                    
+                    TemplateBox[{
+                    "\"Local \[RightGuillemet]\"", "paclet:ref/NDSolve", 
+                    "paclet:ref/NDSolve", "Link", {
+                    RGBColor[0.9686274509803922, 0.4666666666666667, 0.]}, 
+                    BaseStyle -> {
+                    RGBColor[0.0784313725490196, 0.1568627450980392, 0.6]}}, 
+                    "HyperlinkTemplate"], "\"  \"", 
+                    StyleBox[
+                    "\"|\"", "InformationRowLabel", StripOnInput -> False], 
+                    "\"  \"", 
+                    TemplateBox[{"\"Web \[RightGuillemet]\"", {
+                    URL[
+                    "http://reference.wolfram.com/language/ref/NDSolve.html"],
+                     None}, 
+                    "http://reference.wolfram.com/language/ref/NDSolve.html", 
+                    "Hyperlink", {
+                    RGBColor[0.9686274509803922, 0.4666666666666667, 0.]}, 
+                    BaseStyle -> {
+                    RGBColor[0.0784313725490196, 0.1568627450980392, 0.6]}}, 
+                    "HyperlinkTemplate"]},
+                    "RowDefault"]},
+                  {
+                   PaneSelectorBox[{True->
+                    ButtonBox[
+                    PaneSelectorBox[{False->
+                    TemplateBox[{"\[ThickSpace]", "\"\[ThickSpace]\"", 
+                    StyleBox[
+                    "\"Options\"", "InformationRowLabel", StripOnInput -> 
+                    False], 
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "FEBitmaps", "DownPointerOpener"]]},
+                    "RowWithSeparators"], True->
+                    TemplateBox[{"\[ThickSpace]", "\"\[ThickSpace]\"", 
+                    StyleBox[
+                    "\"Options\"", "InformationRowLabel", StripOnInput -> 
+                    False], 
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "FEBitmaps", "DownPointerOpenerHot"]]},
+                    "RowWithSeparators"]}, Dynamic[
+                    CurrentValue["MouseOver"]],
+                    FrameMargins->0,
+                    ImageSize->Automatic],
+                    Appearance->None,
+                    BaseStyle->None,
+                    
+                    ButtonFunction:>(Part[System`InformationDump`open$$, 3] = 
+                    False),
+                    Evaluator->Automatic,
+                    FrameMargins->0,
+                    ImageMargins->0,
+                    Method->"Preemptive"], False->
+                    ButtonBox[
+                    PaneSelectorBox[{False->
+                    TemplateBox[{"\[ThickSpace]", "\"\[ThickSpace]\"", 
+                    StyleBox[
+                    "\"Options\"", "InformationRowLabel", StripOnInput -> 
+                    False], 
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "FEBitmaps", "RightPointerOpener"]]},
+                    "RowWithSeparators"], True->
+                    TemplateBox[{"\[ThickSpace]", "\"\[ThickSpace]\"", 
+                    StyleBox[
+                    "\"Options\"", "InformationRowLabel", StripOnInput -> 
+                    False], 
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "FEBitmaps", "RightPointerOpenerHot"]]},
+                    "RowWithSeparators"]}, Dynamic[
+                    CurrentValue["MouseOver"]],
+                    FrameMargins->0,
+                    ImageSize->Automatic],
+                    Appearance->None,
+                    BaseStyle->None,
+                    
+                    ButtonFunction:>(Part[System`InformationDump`open$$, 3] = 
+                    True),
+                    Evaluator->Automatic,
+                    FrameMargins->0,
+                    ImageMargins->0,
+                    Method->"Preemptive"]}, Dynamic[
+                    FEPrivate`Part[System`InformationDump`open$$, 3]]], 
+                   PaneSelectorBox[{True->GridBox[{
+                    {
+                    RowBox[{"AccuracyGoal", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"Compiled", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"DependentVariables", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"DiscreteVariables", "\[Rule]", 
+                    RowBox[{"{", "}"}]}]},
+                    {
+                    RowBox[{"EvaluationMonitor", "\[Rule]", "None"}]},
+                    {
+                    RowBox[{"InitialSeeding", "\[Rule]", 
+                    RowBox[{"{", "}"}]}]},
+                    {
+                    RowBox[{"InterpolationOrder", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"MaxStepFraction", "\[Rule]", 
+                    FractionBox["1", "10"]}]},
+                    {
+                    RowBox[{"MaxSteps", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"MaxStepSize", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"Method", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"NormFunction", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"PrecisionGoal", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"StartingStepSize", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"StepMonitor", "\[Rule]", "None"}]},
+                    {
+                    RowBox[{
+                    "WorkingPrecision", "\[Rule]", "MachinePrecision"}]},
+                    {
+                    StyleBox[
+                    
+                    TemplateBox[{
+                    "\"(\"", "\"\[InvisibleSpace]\"", "16", "\" total)\""},
+                    "RowDefault"], "InformationRowOpener",
+                    StripOnInput->False]}
+                    },
+                    BaselinePosition->{Baseline, {1, 1}},
+                    DefaultBaseStyle->"Column",
+                    GridBoxAlignment->{"Columns" -> {{Left}}},
+                    GridBoxItemSize->{
+                    "Columns" -> {{Automatic}}, "Rows" -> {{1.}}}], False->
+                    RowBox[{
+                    RowBox[{"AccuracyGoal", "\[Rule]", "Automatic"}], 
+                    "\[ThinSpace]", 
+                    StyleBox["\<\"\[Ellipsis]\"\>", "InformationRowOpener",
+                    StripOnInput->False], "\[ThinSpace]", 
+                    StyleBox[
+                    
+                    TemplateBox[{
+                    "\"(\"", "\"\[InvisibleSpace]\"", "16", "\" total)\""},
+                    "RowDefault"], "InformationRowOpener",
+                    StripOnInput->False]}]}, Dynamic[
+                    FEPrivate`Part[System`InformationDump`open$$, 3]],
+                    BaselinePosition->Baseline,
+                    ImageSize->Automatic]},
+                  {
+                   TagBox[
+                    TooltipBox[
+                    StyleBox["\<\" Attributes\"\>", "InformationRowLabel",
+                    StripOnInput->False],
+                    "\"Attributes\"",
+                    TooltipStyle->"TextStyling"],
+                    Annotation[#, "Attributes", "Tooltip"]& ], 
+                   RowBox[{"{", "Protected", "}"}]},
+                  {
+                   TagBox[
+                    TooltipBox[
+                    StyleBox["\<\" Full Name\"\>", "InformationRowLabel",
+                    StripOnInput->False],
+                    "\"FullName\"",
+                    TooltipStyle->"TextStyling"],
+                    
+                    Annotation[#, "FullName", 
+                    "Tooltip"]& ], "\<\"System`NDSolve\"\>"}
+                 },
+                 AutoDelete->False,
+                 GridBoxAlignment->{"Columns" -> {Right, Left}},
+                 GridBoxDividers->None,
+                 GridBoxItemSize->{"Columns" -> {Automatic, Automatic}},
+                 GridBoxSpacings->{"Columns" -> {
+                    Offset[0.27999999999999997`], {
+                    Offset[0.5599999999999999]}, 
+                    Offset[0.27999999999999997`]}, "Rows" -> {
+                    Offset[0.2], {
+                    Offset[0.8]}, 
+                    Offset[0.2]}}], "DialogStyle",
+                StripOnInput->False],
+               DynamicModuleValues:>{}]}
+            },
+            DefaultBaseStyle->"Column",
+            GridBoxAlignment->{"Columns" -> {{Left}}},
+            GridBoxDividers->{"Columns" -> {{False}}, "Rows" -> {{False}}},
+            
+            GridBoxItemSize->{
+             "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+            GridBoxSpacings->{"Columns" -> {
+                Offset[0.27999999999999997`], {
+                 Offset[0.5599999999999999]}, 
+                Offset[0.27999999999999997`]}, "Rows" -> {
+                Offset[0.2], {
+                 Offset[3.6]}, 
+                Offset[0.2]}}],
+           FrameMargins->{{6, 6}, {6, 3}}], ""},
+         {
+          ItemBox[
+           TagBox[
+            ButtonBox[
+             PaneSelectorBox[{False->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "UpPointerOpener"]], True->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "UpPointerOpenerHot"]]}, Dynamic[
+              System`InformationDump`mouseOver$$]],
+             Alignment->Left,
+             Appearance->{"Default" -> None},
+             
+             ButtonFunction:>FEPrivate`Set[
+              System`InformationDump`open$$, False],
+             Evaluator->Automatic,
+             FrameMargins->{{9, 0}, {0, 0}},
+             ImageMargins->0,
+             ImageSize->Full,
+             Method->"Preemptive"],
+            
+            EventHandlerTag[{
+             "MouseEntered" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, True], 
+              "MouseExited" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, False], 
+              Method -> "Preemptive", PassEventsDown -> Automatic, 
+              PassEventsUp -> True}]],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], "\[SpanFromLeft]"}
+        },
+        AutoDelete->False,
+        FrameStyle->Directive[
+          GrayLevel[0.8], 
+          Thickness[Tiny]],
+        GridBoxAlignment->{"Columns" -> {Left, Right}, "Rows" -> {{Center}}},
+        GridBoxDividers->{
+         "Columns" -> {{None}}, "Rows" -> {False, {True}, False}},
+        GridBoxItemSize->{
+         "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+       "Grid"], False->
+      TagBox[GridBox[{
+         {
+          ItemBox[
+           PaneBox[
+            StyleBox["\<\" Symbol\"\>", "InformationTitleText",
+             StripOnInput->False],
+            FrameMargins->{{4, 0}, {-1, 1}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], 
+          ItemBox[
+           PaneBox[
+            TooltipBox[
+             ButtonBox[
+              PaneSelectorBox[{False->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIcon"],
+                ImageSizeCache->{13., {4., 9.}}], True->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIconHot"],
+                ImageSizeCache->{13., {4., 9.}}]}, Dynamic[
+                CurrentValue["MouseOver"]]],
+              Appearance->None,
+              BaseStyle->"Link",
+              ButtonData->"paclet:ref/NDSolve",
+              ButtonNote->"paclet:ref/NDSolve"],
+             "\"paclet:ref/NDSolve\""],
+            FrameMargins->{{0, 4}, {0, 2}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False]},
+         {
+          ItemBox[
+           PaneBox[
+            
+            StyleBox["\<\"\\!\\(\\*RowBox[{\\\"NDSolve\\\", \\\"[\\\", \
+RowBox[{StyleBox[\\\"eqns\\\", \\\"TI\\\"], \\\",\\\", StyleBox[\\\"u\\\", \\\
+\"TI\\\"], \\\",\\\", RowBox[{\\\"{\\\", RowBox[{StyleBox[\\\"x\\\", \\\"TI\\\
+\"], \\\",\\\", SubscriptBox[StyleBox[\\\"x\\\", \\\"TI\\\"], \
+StyleBox[\\\"min\\\", \\\"TI\\\"]], \\\",\\\", \
+SubscriptBox[StyleBox[\\\"x\\\", \\\"TI\\\"], StyleBox[\\\"max\\\", \
+\\\"TI\\\"]]}], \\\"}\\\"}]}], \\\"]\\\"}]\\) finds a numerical solution to \
+the ordinary differential equations \\!\\(\\*StyleBox[\\\"eqns\\\", \
+\\\"TI\\\"]\\) for the function \\!\\(\\*StyleBox[\\\"u\\\", \\\"TI\\\"]\\) \
+with the independent variable \\!\\(\\*StyleBox[\\\"x\\\", \\\"TI\\\"]\\) in \
+the range \\!\\(\\*SubscriptBox[StyleBox[\\\"x\\\", \\\"TI\\\"], \
+StyleBox[\\\"min\\\", \\\"TI\\\"]]\\) to \\!\\(\\*SubscriptBox[StyleBox[\\\"x\
+\\\", \\\"TI\\\"], StyleBox[\\\"max\\\", \\\"TI\\\"]]\\). \
+\\n\\!\\(\\*RowBox[{\\\"NDSolve\\\", \\\"[\\\", \
+RowBox[{StyleBox[\\\"eqns\\\", \\\"TI\\\"], \\\",\\\", StyleBox[\\\"u\\\", \\\
+\"TI\\\"], \\\",\\\", RowBox[{\\\"{\\\", RowBox[{StyleBox[\\\"x\\\", \\\"TI\\\
+\"], \\\",\\\", SubscriptBox[StyleBox[\\\"x\\\", \\\"TI\\\"], \
+StyleBox[\\\"min\\\", \\\"TI\\\"]], \\\",\\\", \
+SubscriptBox[StyleBox[\\\"x\\\", \\\"TI\\\"], StyleBox[\\\"max\\\", \
+\\\"TI\\\"]]}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{StyleBox[\\\"y\\\", \\\"TI\\\"], \\\",\\\", \
+SubscriptBox[StyleBox[\\\"y\\\", \\\"TI\\\"], StyleBox[\\\"min\\\", \
+\\\"TI\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"y\\\", \\\"TI\\\"], \
+StyleBox[\\\"max\\\", \\\"TI\\\"]]}], \\\"}\\\"}]}], \\\"]\\\"}]\\) solves \
+the partial differential equations \\!\\(\\*StyleBox[\\\"eqns\\\", \
+\\\"TI\\\"]\\) over a rectangular region.\\n\\!\\(\\*RowBox[{\\\"NDSolve\\\", \
+\\\"[\\\", RowBox[{StyleBox[\\\"eqns\\\", \\\"TI\\\"], \\\",\\\", StyleBox[\\\
+\"u\\\", \\\"TI\\\"], \\\",\\\", RowBox[{RowBox[{\\\"{\\\", RowBox[{StyleBox[\
+\\\"x\\\", \\\"TI\\\"], \\\",\\\", StyleBox[\\\"y\\\", \\\"TI\\\"]}], \\\"}\\\
+\"}], StyleBox[\\\"\[Element]\\\", \\\"TR\\\"], \
+StyleBox[\\\"\[CapitalOmega]\\\", \\\"TR\\\"]}]}], \\\"]\\\"}]\\) solves the \
+partial differential equations \\!\\(\\*StyleBox[\\\"eqns\\\", \\\"TI\\\"]\\) \
+over the region \\!\\(\\*StyleBox[\\\"\[CapitalOmega]\\\", \\\"TR\\\"]\\).\\n\
+\\!\\(\\*RowBox[{\\\"NDSolve\\\", \\\"[\\\", RowBox[{StyleBox[\\\"eqns\\\", \
+\\\"TI\\\"], \\\",\\\", StyleBox[\\\"u\\\", \\\"TI\\\"], \\\",\\\", \
+RowBox[{\\\"{\\\", RowBox[{StyleBox[\\\"t\\\", \\\"TI\\\"], \\\",\\\", \
+SubscriptBox[StyleBox[\\\"t\\\", \\\"TI\\\"], StyleBox[\\\"min\\\", \
+\\\"TI\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"t\\\", \\\"TI\\\"], \
+StyleBox[\\\"max\\\", \\\"TI\\\"]]}], \\\"}\\\"}], \\\",\\\", \
+RowBox[{RowBox[{\\\"{\\\", RowBox[{StyleBox[\\\"x\\\", \\\"TI\\\"], \
+\\\",\\\", StyleBox[\\\"y\\\", \\\"TI\\\"]}], \\\"}\\\"}], StyleBox[\\\"\
+\[Element]\\\", \\\"TR\\\"], StyleBox[\\\"\[CapitalOmega]\\\", \
+\\\"TR\\\"]}]}], \\\"]\\\"}]\\) solves the time-dependent partial \
+differential equations \\!\\(\\*StyleBox[\\\"eqns\\\", \\\"TI\\\"]\\) over \
+the region \\!\\(\\*StyleBox[\\\"\[CapitalOmega]\\\", \
+\\\"TR\\\"]\\).\\n\\!\\(\\*RowBox[{\\\"NDSolve\\\", \\\"[\\\", \
+RowBox[{StyleBox[\\\"eqns\\\", \\\"TI\\\"], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{SubscriptBox[StyleBox[\\\"u\\\", \\\"TI\\\"], StyleBox[\\\"1\\\", \
+\\\"TR\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"u\\\", \\\"TI\\\"], \
+StyleBox[\\\"2\\\", \\\"TR\\\"]], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \\\
+\"TR\\\"]}], \\\"}\\\"}], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \
+\\\"TR\\\"]}], \\\"]\\\"}]\\) solves for the \
+functions\[NonBreakingSpace]\\!\\(\\*SubscriptBox[StyleBox[\\\"u\\\", \
+\\\"TI\\\"], StyleBox[\\\"i\\\", \\\"TI\\\"]]\\). \"\>", 
+             "InformationUsageText",
+             StripOnInput->False,
+             LineSpacing->{1.5, 1.5, 3.}],
+            FrameMargins->{{10, 10}, {8, 10}}],
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False], 
+          ItemBox["\<\"\"\>",
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False]},
+         {
+          ItemBox[
+           TagBox[
+            ButtonBox[
+             PaneSelectorBox[{False->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "DownPointerOpener"],
+               ImageSizeCache->{10., {3., 7.}}], True->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "DownPointerOpenerHot"],
+               ImageSizeCache->{10., {3., 7.}}]}, Dynamic[
+              System`InformationDump`mouseOver$$]],
+             Alignment->Left,
+             Appearance->{"Default" -> None},
+             
+             ButtonFunction:>FEPrivate`Set[
+              System`InformationDump`open$$, True],
+             Evaluator->Automatic,
+             FrameMargins->{{9, 0}, {0, 0}},
+             ImageMargins->0,
+             ImageSize->Full,
+             Method->"Preemptive"],
+            
+            EventHandlerTag[{
+             "MouseEntered" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, True], 
+              "MouseExited" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, False], 
+              Method -> "Preemptive", PassEventsDown -> Automatic, 
+              PassEventsUp -> True}]],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], "\[SpanFromLeft]"}
+        },
+        AutoDelete->False,
+        FrameStyle->Directive[
+          GrayLevel[0.8], 
+          Thickness[Tiny]],
+        GridBoxAlignment->{"Columns" -> {Left, Right}, "Rows" -> {{Center}}},
+        GridBoxDividers->{
+         "Columns" -> {{None}}, "Rows" -> {False, {True}, False}},
+        GridBoxItemSize->{
+         "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+       "Grid"]}, Dynamic[System`InformationDump`open$$],
+      BaselinePosition->Baseline,
+      FrameMargins->0,
+      ImageSize->Automatic],
+     DynamicModuleValues:>{}],
+    BaseStyle->"InformationGridFrame",
+    StripOnInput->False], "InformationGridPlain",
+   StripOnInput->False],
+  InformationData[<|
+   "ObjectType" -> "Symbol", "Usage" -> 
+    "\!\(\*RowBox[{\"NDSolve\", \"[\", RowBox[{StyleBox[\"eqns\", \"TI\"], \
+\",\", StyleBox[\"u\", \"TI\"], \",\", RowBox[{\"{\", RowBox[{StyleBox[\"x\", \
+\"TI\"], \",\", SubscriptBox[StyleBox[\"x\", \"TI\"], StyleBox[\"min\", \
+\"TI\"]], \",\", SubscriptBox[StyleBox[\"x\", \"TI\"], StyleBox[\"max\", \"TI\
+\"]]}], \"}\"}]}], \"]\"}]\) finds a numerical solution to the ordinary \
+differential equations \!\(\*StyleBox[\"eqns\", \"TI\"]\) for the function \!\
+\(\*StyleBox[\"u\", \"TI\"]\) with the independent variable \
+\!\(\*StyleBox[\"x\", \"TI\"]\) in the range \
+\!\(\*SubscriptBox[StyleBox[\"x\", \"TI\"], StyleBox[\"min\", \"TI\"]]\) to \
+\!\(\*SubscriptBox[StyleBox[\"x\", \"TI\"], StyleBox[\"max\", \"TI\"]]\). \n\
+\!\(\*RowBox[{\"NDSolve\", \"[\", RowBox[{StyleBox[\"eqns\", \"TI\"], \",\", \
+StyleBox[\"u\", \"TI\"], \",\", RowBox[{\"{\", RowBox[{StyleBox[\"x\", \
+\"TI\"], \",\", SubscriptBox[StyleBox[\"x\", \"TI\"], StyleBox[\"min\", \
+\"TI\"]], \",\", SubscriptBox[StyleBox[\"x\", \"TI\"], StyleBox[\"max\", \"TI\
+\"]]}], \"}\"}], \",\", RowBox[{\"{\", RowBox[{StyleBox[\"y\", \"TI\"], \
+\",\", SubscriptBox[StyleBox[\"y\", \"TI\"], StyleBox[\"min\", \"TI\"]], \
+\",\", SubscriptBox[StyleBox[\"y\", \"TI\"], StyleBox[\"max\", \"TI\"]]}], \
+\"}\"}]}], \"]\"}]\) solves the partial differential equations \
+\!\(\*StyleBox[\"eqns\", \"TI\"]\) over a rectangular region.\n\!\(\*RowBox[{\
+\"NDSolve\", \"[\", RowBox[{StyleBox[\"eqns\", \"TI\"], \",\", \
+StyleBox[\"u\", \"TI\"], \",\", RowBox[{RowBox[{\"{\", \
+RowBox[{StyleBox[\"x\", \"TI\"], \",\", StyleBox[\"y\", \"TI\"]}], \"}\"}], \
+StyleBox[\"\[Element]\", \"TR\"], StyleBox[\"\[CapitalOmega]\", \"TR\"]}]}], \
+\"]\"}]\) solves the partial differential equations \!\(\*StyleBox[\"eqns\", \
+\"TI\"]\) over the region \!\(\*StyleBox[\"\[CapitalOmega]\", \"TR\"]\).\n\
+\!\(\*RowBox[{\"NDSolve\", \"[\", RowBox[{StyleBox[\"eqns\", \"TI\"], \",\", \
+StyleBox[\"u\", \"TI\"], \",\", RowBox[{\"{\", RowBox[{StyleBox[\"t\", \
+\"TI\"], \",\", SubscriptBox[StyleBox[\"t\", \"TI\"], StyleBox[\"min\", \
+\"TI\"]], \",\", SubscriptBox[StyleBox[\"t\", \"TI\"], StyleBox[\"max\", \"TI\
+\"]]}], \"}\"}], \",\", RowBox[{RowBox[{\"{\", RowBox[{StyleBox[\"x\", \
+\"TI\"], \",\", StyleBox[\"y\", \"TI\"]}], \"}\"}], StyleBox[\"\[Element]\", \
+\"TR\"], StyleBox[\"\[CapitalOmega]\", \"TR\"]}]}], \"]\"}]\) solves the \
+time-dependent partial differential equations \!\(\*StyleBox[\"eqns\", \
+\"TI\"]\) over the region \!\(\*StyleBox[\"\[CapitalOmega]\", \"TR\"]\).\n\
+\!\(\*RowBox[{\"NDSolve\", \"[\", RowBox[{StyleBox[\"eqns\", \"TI\"], \",\", \
+RowBox[{\"{\", RowBox[{SubscriptBox[StyleBox[\"u\", \"TI\"], StyleBox[\"1\", \
+\"TR\"]], \",\", SubscriptBox[StyleBox[\"u\", \"TI\"], StyleBox[\"2\", \
+\"TR\"]], \",\", StyleBox[\"\[Ellipsis]\", \"TR\"]}], \"}\"}], \",\", \
+StyleBox[\"\[Ellipsis]\", \"TR\"]}], \"]\"}]\) solves for the functions\
+\[NonBreakingSpace]\!\(\*SubscriptBox[StyleBox[\"u\", \"TI\"], \
+StyleBox[\"i\", \"TI\"]]\). ", 
+    "Documentation" -> <|
+     "Local" -> "paclet:ref/NDSolve", "Web" -> 
+      "http://reference.wolfram.com/language/ref/NDSolve.html"|>, "OwnValues" -> 
+    None, "UpValues" -> None, "DownValues" -> None, "SubValues" -> None, 
+    "DefaultValues" -> None, "NValues" -> None, "FormatValues" -> None, 
+    "Options" -> {
+     AccuracyGoal -> Automatic, Compiled -> Automatic, DependentVariables -> 
+      Automatic, DiscreteVariables -> {}, EvaluationMonitor -> None, 
+      InitialSeeding -> {}, InterpolationOrder -> Automatic, MaxStepFraction -> 
+      Rational[1, 10], MaxSteps -> Automatic, MaxStepSize -> Automatic, 
+      Method -> Automatic, NormFunction -> Automatic, PrecisionGoal -> 
+      Automatic, StartingStepSize -> Automatic, StepMonitor -> None, 
+      WorkingPrecision -> MachinePrecision}, "Attributes" -> {Protected}, 
+    "FullName" -> "System`NDSolve"|>, False]]], "Output",
+ CellChangeTimes->{3.9003620221659627`*^9},
+ CellLabel->"Out[77]=",ExpressionUUID->"b7925e6d-9b16-4cbe-9f33-c52491edd56e"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"PltEuler", " ", "=", " ", 
+    RowBox[{"ListPlot", "[", 
+     RowBox[{"Reseni", ",", " ", 
+      RowBox[{"AxesLabel", "->", 
+       RowBox[{"{", 
+        RowBox[{"\"\<t\>\"", ",", " ", "\"\<y\>\""}], "}"}]}], ",", " ", 
+      RowBox[{"PlotStyle", "->", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"PointSize", "[", "0.015", "]"}], ",", " ", "Red"}], "}"}]}],
+       ",", " ", 
+      RowBox[{"GridLines", "->", "Full"}]}], "]"}]}], ";"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"RvncNDSolve", " ", "=", " ", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{
+      RowBox[{
+       RowBox[{"y", "'"}], "[", "t", "]"}], " ", "==", " ", 
+      RowBox[{"Derivace", "[", 
+       RowBox[{"{", 
+        RowBox[{"t", ",", " ", 
+         RowBox[{"y", "[", "t", "]"}]}], "}"}], "]"}]}], ",", " ", 
+     RowBox[{
+      RowBox[{"y", "[", "t0", "]"}], " ", "==", " ", "y0"}]}], "}"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"SlvNDS", " ", "=", " ", 
+   RowBox[{
+    RowBox[{"NDSolve", "[", 
+     RowBox[{"RvncNDSolve", ",", " ", "y", ",", " ", 
+      RowBox[{"{", 
+       RowBox[{"t", ",", " ", "t0", ",", " ", "tMax"}], "}"}]}], "]"}], "[", 
+    RowBox[{"[", "1", "]"}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"PltNDS", " ", "=", " ", 
+   RowBox[{"Plot", "[", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"y", "[", "t", "]"}], " ", "/.", " ", "SlvNDS"}], ",", " ", 
+     RowBox[{"{", 
+      RowBox[{"t", ",", " ", "t0", ",", " ", "tMax"}], "}"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"Show", "[", 
+  RowBox[{"PltEuler", ",", " ", "PltNDS"}], "]"}]}], "Input",
+ CellChangeTimes->{{3.900362087324089*^9, 3.9003622398350687`*^9}, {
+   3.900362278164304*^9, 3.9003623065167437`*^9}, 3.9003623929503055`*^9},
+ CellLabel->"In[83]:=",ExpressionUUID->"e0e983f0-f8a3-4a84-9483-bcaef930aa02"],
+
+Cell[BoxData[
+ GraphicsBox[{{{}, 
+    {RGBColor[1, 0, 0], PointSize[0.015], AbsoluteThickness[1.6], 
+     PointBox[CompressedData["
+1:eJxVk300lQccx6+3XiTKS1kJvY2mslNsq8v5Pt1edGKkWDu6STZOWpO0k8LW
+piOFVopKMYrlzFBObSorm5fFogjdCnO95IaLi/vm3ts19z6/f/Y75znPed5+
+v+/3+/k9i0MP7Qgz5HA4YVOH7vz/WsbEWZd4dcWmY62+ltJ1PridfmcvRy5h
+7tknDvrfK0GK8ITLq9LF9PwuxOGDiQUaR+Zqpq7u41YH/9PffB3p/Uco23Um
+PcrPgRH76+78haHoRbHPze3p+2oERB47Mb3NjjEV5EV5mj5G8d4I/9Q7C6lf
+HZTCkx3dlxcwK/jnKmXO9ajJD7S7kPQe9X+Kn9oqO5Yn2DL5U18L8hqxJvTI
+5dVJ82leE2LSuO4bLs1jWF/NuB16cFBeYkPzW6DerzAdarRmqmTOUxNaIerf
+KahWW5EeATSLrIKXuloxO/QDX2J9kOX20gOWpO8VzNPXty8omct0xeoavsZI
+0MMUi4k5pLcdISZ/OvC85zCHdfKiOuAoqBc2brUg/f/CGcFXj84wZ1gOQnRu
+cXoobjEjP0J4+VbMvV08i9nKDkBdeVgu74Ip+etC2SgvziVhJqObxj/XjeDc
+Z8ny+BnktwfaKB++W8J0hrXTgyCR29jxtGnkvxfGH2ZeCik0YRx0cuzfwGef
+963EemPK4w0c4xsuJiuMmHB99eHeuuEvrV2MKB8Rsg4Y9T0JN2R03axLRFjI
+L921p9CA8nqLwlDXgGMyDiPXtZO9hcc2VdEzLw7l148Cq/qLa3iT0MfjOYDU
+IAMrO0MtWLsDOCU5vLn5qQZ6eYmDWJcTY9FaoAabrxjGMsXFvFQVGup1JYZ3
+5m1tTfwE2LyHID79y/baGCX0dq2HUc0tW839VgE2/2GcyVCU3kmVQ9+OP4Ld
+fPf1T36WgeUhgUWFPc+hVgrWjwTJHh7u/uPjYPlIUKzJ8JrmNA7WnwTuX8h9
+RaFjYHmNghN4Pzv35ihYv1Nnf9vOrlEJWH6jCFneK92zSUL+xzBrBbc4gzsC
+lucY5P0PeyrVQ5THGNxiLW3La8X0n47jxiq/berrg5TPOALmq8pMkgbA8h6H
+x4OQm/ti+ikvKX5dZeN6LfotWP5SrC2PNd94TET5SVHU7vPNcFIf2H2QQfG5
+2YuPrr+hPGV4MBtV96t6we6HDLzyQ+W2Iz2UrxzKvjaTiSU9YPdFjm25j5KN
+9nZT3nLY5zuV9N7oArs/CkiN/Fb6DAspfwW22H6mEDNCsPukwLyNT1eq3DqJ
+hxK3FnubfSXrIB5KZBtUueVXthMPJVq7DSuXZLURDyVMy13MIn54TTwmsPt7
+m2jt4VfEYwIpawXLD339knhMwFS6R+19REA8VODM1H7ywckXxEMFzxv9EXlZ
+rcRDhcie42sCK1qIhxoFFz5+v2ugmXiokZqQliO2byYeapxPcs103P2ceGgg
+imk6vSKniXhokBtcyC0baCQeGlQVOd+N92wkHu+Qk73OMmT1M+LxDmGbQ1Kt
+RxqIxzvw7nhe+/GPeuKhRcDvfke9Lz0hHlpYnfI53xD3D/HQ4uyytH1ZB+uI
+xyRm+9x127S/lnhMYr7CSRYY+Zh4TGJndMtk+Hd/Ew8OU1RxRTbnSg3+A9tb
+Dzg=
+      "]]}, {{}, {}}}, {{{}, {}, 
+     TagBox[
+      {RGBColor[0.368417, 0.506779, 0.709798], AbsoluteThickness[1.6], 
+       Opacity[1.], LineBox[CompressedData["
+1:eJwVz3lYzHkAx/HKEGIqWUw1UqMtQi2tFOvzS8KW0LEPtkOotLFRWkerJ9F0
+E22b0kmjNpOimcrDoFXbNEgy3dJ0jKTSOU2Hmu/yx/t5/f3WP3LSyVtFSUnJ
+4WvftPPuqS375L3VtiZVSgiLotlon5IwtoNT6dj7cJJFbchMTuMxXGB8eI70
+9CiLsq9uLEpneMHQhfd0sJtF7fcaf5LACEJ0i2RaUc2i3ptG2lxhhMPsXfXy
+P9NYVNZ3eyNiGIlokGZFfrBiUWFzeUbRDA6U6LKMwyEG1IGDtwqHhvngRcbN
+M/qyglIjYW47lz/DCHPfMTUPPcrQcaCnPLYCvnaCPTo0JnX2tSWSZSL4GYeF
+qN/VppbyNduUlWuQqZuras9ZRpV02ryq2fIWgjvv/z2RuYR67peuc7C/DpzE
+ghMbqhdTY9//pH7v90asFdyWmm/RolQmuRo6hi3YUnRWeJKrSW0kniXOBa0o
+I+rtIicN6lW4+evK1RK8Ozhzs8mcTuld65vMG2iHtVp+fmm5GtU3LmmrN+uE
+XfzuyMV351Gc3scv6Fe7EOnUcdTguipFZ+YOSqVSBPDFyqX5s6m434p9slZ2
+49X27CL6Aholp7hS39CP4P26zDfguAoVtL6Cv6S8B0VCbpbRbGVKUlARW6vf
+izSTO67rQPDFry51VXAfSruifdY/moaJtarC53E/anrF6X/ET2Hnbf1jD5YO
+YKsjrcfUewJnmYcMOtwGsU9hzIyLkmNN/y9qjQ5DuJF7IyC5SQYt9aG5FVND
+GOHqc0KMR0F7llrIShvGgUx/Twl/GMfNHzfPsx8B3bHEtd56CNyfj2Q9lY8g
+V/ZshXX3Z4z1aWt0J43ih4zDNhdz+lDsvHNW4nYZkisDNcd8PiF0FzuT3y0D
+K/QJW+XcR+i/t2vKZo/B0oJ7z6v0A6wswhMZ6+W4kHK51lfeBbflNZPKYjlG
+G0Y7bYI6MfbiSuepsHGMalWfiR1pRzLNI8hp5QTKG29NljhIoNVWfFulYgIC
+2yi9VFkrZoeEuVgGTIKmu8w4MLUFSnkehZ2LpiDdl9B3OqkJgTcLryx6PoWk
+v7bG+yQ04IlJ1FxN/y+4XnzAZKSsDpp2gWsu0aexarjZNdVMjNa1b8TnBdO4
+ma/Iicmqxf0MrJR6zMCFaWEWuusN3As3ajIVM3BPDm330n+Ni+xbYa13FRhm
+f5gJevAS93qYqfTdBAkmz7OakkWISmd7tu0hYC8MXfMuXgQvp8+GBY4ENNsF
+He0RIugKBPcd9hOoKCzLxoJEiIl3rYw7QmCR4rTJ1lEE340pw/PPE8hDJrSD
+54tgEL54l2oOQb7D0jnmoVVQbLqwsPEfgkiv4KspZ6rQ/LnrbQ6X4JxOma6K
+fxWu7ee573hA0FH0945WtyqQ1U6n2QKC+dHN9/lWVWitjc+YJSZwb7Xpk8mF
+eBgxflRcT9AQW78nZkCIxM2HVmU3EXCUxDkG3ULY31nH39b29e8yz9StXohH
+56pFYZ8ImgaDI0Z4QiSt/THesZ/A5GWLfyZXiIDONBf9QYIzit5te7OFMN59
+QlImI7AqeZpXmiAETbmOc22cwPWQs9WpGCHaizf7eU4RlOdZFZlcEkLgl21q
+NkPwn5G7Ru95IW7oqY0RQlB6PNuZGyDE/xEXde8=
+        "]]},
+      Annotation[#, "Charting`Private`Tag$10462#1"]& ]}, {}}},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->{True, True},
+  AxesLabel->{
+    FormBox[
+     TagBox["\"t\"", HoldForm], TraditionalForm], 
+    FormBox[
+     TagBox["\"y\"", HoldForm], TraditionalForm]},
+  AxesOrigin->{0, 0},
+  DisplayFunction->Identity,
+  Frame->{{False, False}, {False, False}},
+  FrameLabel->{{None, None}, {None, None}},
+  FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+  GridLines->
+   FrontEndValueCache[{
+    Charting`ScaledTickValues[{Identity, Identity}][#, #2, {6, 6}]& , 
+     Charting`ScaledTickValues[{Identity, Identity}][#, #2, {6, 6}]& }, {{{0., 
+       Directive[]}, {0.5, 
+       Directive[]}, {1., 
+       Directive[]}, {1.5, 
+       Directive[]}, {2., 
+       Directive[]}, {-0.5, 
+       Directive[]}, {-0.4, 
+       Directive[]}, {-0.3, 
+       Directive[]}, {-0.2, 
+       Directive[]}, {-0.1, 
+       Directive[]}, {0.1, 
+       Directive[]}, {0.2, 
+       Directive[]}, {0.3, 
+       Directive[]}, {0.4, 
+       Directive[]}, {0.6, 
+       Directive[]}, {0.7, 
+       Directive[]}, {0.8, 
+       Directive[]}, {0.9, 
+       Directive[]}, {1.1, 
+       Directive[]}, {1.2, 
+       Directive[]}, {1.3, 
+       Directive[]}, {1.4, 
+       Directive[]}, {1.6, 
+       Directive[]}, {1.7, 
+       Directive[]}, {1.8, 
+       Directive[]}, {1.9, 
+       Directive[]}, {2.1, 
+       Directive[]}, {2.2, 
+       Directive[]}, {2.3, 
+       Directive[]}, {2.4, 
+       Directive[]}, {2.5, 
+       Directive[]}}, {{0., 
+       Directive[]}, {2., 
+       Directive[]}, {4., 
+       Directive[]}, {6., 
+       Directive[]}, {8., 
+       Directive[]}, {10., 
+       Directive[]}, {-2., 
+       Directive[]}, {-1.5, 
+       Directive[]}, {-1., 
+       Directive[]}, {-0.5, 
+       Directive[]}, {0.5, 
+       Directive[]}, {1., 
+       Directive[]}, {1.5, 
+       Directive[]}, {2.5, 
+       Directive[]}, {3., 
+       Directive[]}, {3.5, 
+       Directive[]}, {4.5, 
+       Directive[]}, {5., 
+       Directive[]}, {5.5, 
+       Directive[]}, {6.5, 
+       Directive[]}, {7., 
+       Directive[]}, {7.5, 
+       Directive[]}, {8.5, 
+       Directive[]}, {9., 
+       Directive[]}, {9.5, 
+       Directive[]}, {10.5, 
+       Directive[]}, {11., 
+       Directive[]}, {11.5, 
+       Directive[]}, {12., 
+       Directive[]}}}],
+  GridLinesStyle->Directive[
+    GrayLevel[0.5, 0.4]],
+  Method->{
+   "AxisPadding" -> Scaled[0.02], "DefaultBoundaryStyle" -> Automatic, 
+    "DefaultGraphicsInteraction" -> {
+     "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+      "Effects" -> {
+       "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+        "Droplines" -> {
+         "freeformCursorMode" -> True, 
+          "placement" -> {"x" -> "All", "y" -> "None"}}}}, "DefaultMeshStyle" -> 
+    AbsolutePointSize[6], "DefaultPlotStyle" -> {
+      Directive[
+       RGBColor[0.368417, 0.506779, 0.709798], 
+       AbsoluteThickness[1.6]], 
+      Directive[
+       RGBColor[0.880722, 0.611041, 0.142051], 
+       AbsoluteThickness[1.6]], 
+      Directive[
+       RGBColor[0.560181, 0.691569, 0.194885], 
+       AbsoluteThickness[1.6]], 
+      Directive[
+       RGBColor[0.922526, 0.385626, 0.209179], 
+       AbsoluteThickness[1.6]], 
+      Directive[
+       RGBColor[0.528488, 0.470624, 0.701351], 
+       AbsoluteThickness[1.6]], 
+      Directive[
+       RGBColor[0.772079, 0.431554, 0.102387], 
+       AbsoluteThickness[1.6]], 
+      Directive[
+       RGBColor[0.363898, 0.618501, 0.782349], 
+       AbsoluteThickness[1.6]], 
+      Directive[
+       RGBColor[1, 0.75, 0], 
+       AbsoluteThickness[1.6]], 
+      Directive[
+       RGBColor[0.647624, 0.37816, 0.614037], 
+       AbsoluteThickness[1.6]], 
+      Directive[
+       RGBColor[0.571589, 0.586483, 0.], 
+       AbsoluteThickness[1.6]], 
+      Directive[
+       RGBColor[0.915, 0.3325, 0.2125], 
+       AbsoluteThickness[1.6]], 
+      Directive[
+       RGBColor[0.40082222609352647`, 0.5220066643438841, 0.85], 
+       AbsoluteThickness[1.6]], 
+      Directive[
+       RGBColor[0.9728288904374106, 0.621644452187053, 0.07336199581899142], 
+       AbsoluteThickness[1.6]], 
+      Directive[
+       RGBColor[0.736782672705901, 0.358, 0.5030266573755369], 
+       AbsoluteThickness[1.6]], 
+      Directive[
+       RGBColor[0.28026441037696703`, 0.715, 0.4292089322474965], 
+       AbsoluteThickness[1.6]]}, "DomainPadding" -> Scaled[0.02], 
+    "PointSizeFunction" -> "SmallPointSize", "RangePadding" -> Scaled[0.05], 
+    "OptimizePlotMarkers" -> True, "OptimizePlotMarkers" -> True, 
+    "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+        Identity[
+         Part[#, 1]], 
+        Identity[
+         Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+        Identity[
+         Part[#, 1]], 
+        Identity[
+         Part[#, 2]]}& )}},
+  PlotRange->{{0, 2.}, {0, 10.}},
+  PlotRangeClipping->True,
+  PlotRangePadding->{{
+     Scaled[0.02], 
+     Scaled[0.02]}, {
+     Scaled[0.02], 
+     Scaled[0.05]}},
+  Ticks->{Automatic, Automatic}]], "Output",
+ CellChangeTimes->{3.900362311926533*^9, 3.9003623950668135`*^9},
+ CellLabel->"Out[87]=",ExpressionUUID->"0cf3ed03-b8b4-4e20-9daf-979bab8e4e8b"]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
@@ -7439,6 +8302,17 @@ Cell[293086, 6773, 5417, 159, 255, "Output",ExpressionUUID->"3795c4d1-aa32-409c-
 Cell[CellGroupData[{
 Cell[298540, 6937, 1979, 54, 200, "Input",ExpressionUUID->"b77215a0-9492-4287-a5f7-0326e79ccf7b"],
 Cell[300522, 6993, 6999, 188, 255, "Output",ExpressionUUID->"9293fc44-2d33-4baf-8f78-a24a1ce210cc"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[307570, 7187, 159, 3, 54, "Subsection",ExpressionUUID->"30f2c9b1-7b2e-40bd-8a93-61f2c8d0436f"],
+Cell[CellGroupData[{
+Cell[307754, 7194, 197, 3, 28, "Input",ExpressionUUID->"a62345d3-bb5f-4047-8f8b-ed7026d29547"],
+Cell[307954, 7199, 28360, 568, 273, "Output",ExpressionUUID->"b7925e6d-9b16-4cbe-9f33-c52491edd56e"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[336351, 7772, 1908, 51, 143, "Input",ExpressionUUID->"e0e983f0-f8a3-4a84-9483-bcaef930aa02"],
+Cell[338262, 7825, 8855, 219, 255, "Output",ExpressionUUID->"0cf3ed03-b8b4-4e20-9daf-979bab8e4e8b"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
