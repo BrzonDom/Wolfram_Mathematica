@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    485700,       8777]
-NotebookOptionsPosition[    478846,       8660]
-NotebookOutlinePosition[    479255,       8676]
-CellTagsIndexPosition[    479212,       8673]
+NotebookDataLength[    553177,      10358]
+NotebookOptionsPosition[    545958,      10234]
+NotebookOutlinePosition[    546367,      10250]
+CellTagsIndexPosition[    546324,      10247]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -8654,6 +8654,1580 @@ P5NErB0Vzif3mIWjb1bfIj5YtPP76kIW5lty7xD/HxHT9tQ=
  CellLabel->
   "Out[375]=",ExpressionUUID->"84cf6617-464b-46dd-9fd4-6ad9191e0f37"]
 }, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Hled\[AAcute]n\[IAcute] funkc\[IAcute]", "Subsection",
+ CellChangeTimes->{{3.9010044599501925`*^9, 
+  3.901004465759058*^9}},ExpressionUUID->"b3b30212-2f46-42cb-8ffb-\
+e76d2296992b"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"?", "*Plot*"}]], "Input",
+ CellChangeTimes->{{3.9010043973109245`*^9, 3.901004407789257*^9}, {
+  3.9010044396148043`*^9, 3.9010044441774063`*^9}},
+ CellLabel->
+  "In[378]:=",ExpressionUUID->"e6b28098-ddd5-41c7-8df1-ae5b82b2d16b"],
+
+Cell[BoxData[
+ StyleBox[
+  FrameBox[GridBox[{
+     {
+      DynamicModuleBox[{Typeset`open$$ = False}, 
+       PaneSelectorBox[{False->
+        ButtonBox[
+         RowBox[{
+          
+          DynamicBox[FEPrivate`FrontEndResource[
+           "FEBitmaps", "RightPointerOpener"],
+           ImageSizeCache->{10., {3., 7.}}], " ", 
+          StyleBox["System`", "InformationGridGroupHeader"]}],
+         Appearance->None,
+         BaseStyle->"InformationGridLink",
+         ButtonFunction:>FEPrivate`Set[Typeset`open$$, True],
+         Evaluator->Automatic,
+         Method->"Preemptive"], True->
+        PaneBox[GridBox[{
+           {
+            ButtonBox[
+             RowBox[{
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "DownPointerOpener"],
+               ImageSizeCache->{6.5, {2., 4.5}}], " ", 
+              StyleBox["System`", "InformationGridGroupHeader"]}],
+             Appearance->None,
+             BaseStyle->"InformationGridLink",
+             ButtonFunction:>FEPrivate`Set[Typeset`open$$, False],
+             Evaluator->Automatic,
+             Method->"Preemptive"]},
+           {
+            PaneBox[GridBox[{
+               {
+                ButtonBox[
+                 StyleBox["AbsArgPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "AbsArgPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["DensityPlot3D", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "DensityPlot3D", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["ListContourPlot3D", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "ListContourPlot3D", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["ListVectorPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "ListVectorPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["PlotMarkers", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "PlotMarkers", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["SliceVectorPlot3D", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "SliceVectorPlot3D", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic]},
+               {
+                ButtonBox[
+                 StyleBox["AnatomyPlot3D", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "AnatomyPlot3D", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["DiscretePlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "DiscretePlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["ListCurvePathPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "ListCurvePathPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["ListVectorPlot3D", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "ListVectorPlot3D", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["PlotPoints", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "PlotPoints", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["SphericalPlot3D", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "SphericalPlot3D", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic]},
+               {
+                ButtonBox[
+                 StyleBox["ArrayPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "ArrayPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["DiscretePlot3D", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "DiscretePlot3D", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["ListDensityPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "ListDensityPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["LogLinearPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "LogLinearPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["PlotRange", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "PlotRange", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["StackedDateListPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "StackedDateListPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic]},
+               {
+                ButtonBox[
+                 StyleBox["ArrayPlot3D", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "ArrayPlot3D", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["FeatureImpactPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "FeatureImpactPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["ListDensityPlot3D", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "ListDensityPlot3D", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["LogLogPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "LogLogPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["PlotRangeClipping", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "PlotRangeClipping", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["StackedListPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "StackedListPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic]},
+               {
+                ButtonBox[
+                 StyleBox["AudioPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "AudioPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["FeatureSpacePlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "FeatureSpacePlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 
+                 StyleBox["ListLineIntegralConvolutionPlot", 
+                  "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "ListLineIntegralConvolutionPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["LogPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "LogPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["PlotRangeClipPlanesStyle", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "PlotRangeClipPlanesStyle", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["StreamDensityPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "StreamDensityPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic]},
+               {
+                ButtonBox[
+                 StyleBox["BioSequencePlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "BioSequencePlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["FeatureSpacePlot3D", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "FeatureSpacePlot3D", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["ListLinePlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "ListLinePlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["MandelbrotSetPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "MandelbrotSetPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["PlotRangePadding", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "PlotRangePadding", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["StreamPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "StreamPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic]},
+               {
+                ButtonBox[
+                 StyleBox["BodePlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "BodePlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 
+                 StyleBox["FeatureValueDependencyPlot", 
+                  "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "FeatureValueDependencyPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["ListLinePlot3D", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "ListLinePlot3D", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["MatrixPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "MatrixPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["PlotRegion", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "PlotRegion", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["StreamPlot3D", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "StreamPlot3D", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic]},
+               {
+                ButtonBox[
+                 StyleBox["ChromaticityPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "ChromaticityPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["FeatureValueImpactPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "FeatureValueImpactPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["ListLogLinearPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "ListLogLinearPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["MaxPlotPoints", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "MaxPlotPoints", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["PlotStyle", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "PlotStyle", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["SystemModelPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "SystemModelPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic]},
+               {
+                ButtonBox[
+                 StyleBox["ChromaticityPlot3D", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "ChromaticityPlot3D", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["GeoContourPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "GeoContourPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["ListLogLogPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "ListLogLogPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["MoleculePlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "MoleculePlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["PlotTheme", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "PlotTheme", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["TernaryListPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "TernaryListPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic]},
+               {
+                ButtonBox[
+                 StyleBox["CommunityGraphPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "CommunityGraphPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["GeoDensityPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "GeoDensityPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["ListLogPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "ListLogPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["MoleculePlot3D", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "MoleculePlot3D", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["PointValuePlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "PointValuePlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["TernaryPlotCorners", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "TernaryPlotCorners", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic]},
+               {
+                ButtonBox[
+                 StyleBox["ComplexArrayPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "ComplexArrayPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["GeoGraphPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "GeoGraphPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["ListPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "ListPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["NicholsPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "NicholsPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["PolarPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "PolarPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["TimelinePlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "TimelinePlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic]},
+               {
+                ButtonBox[
+                 StyleBox["ComplexContourPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "ComplexContourPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["GeoGraphValuePlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "GeoGraphValuePlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["ListPlot3D", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "ListPlot3D", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["NumberLinePlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "NumberLinePlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["ProbabilityPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "ProbabilityPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["TreePlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "TreePlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic]},
+               {
+                ButtonBox[
+                 StyleBox["ComplexListPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "ComplexListPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["GeoListPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "GeoListPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["ListPointPlot3D", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "ListPointPlot3D", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["NyquistPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "NyquistPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["ProbabilityScalePlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "ProbabilityScalePlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["VectorDensityPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "VectorDensityPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic]},
+               {
+                ButtonBox[
+                 StyleBox["ComplexPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "ComplexPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["GeoRegionValuePlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "GeoRegionValuePlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["ListPolarPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "ListPolarPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["ParallelAxisPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "ParallelAxisPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["QuantilePlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "QuantilePlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["VectorDisplacementPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "VectorDisplacementPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic]},
+               {
+                ButtonBox[
+                 StyleBox["ComplexPlot3D", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "ComplexPlot3D", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["GeoStreamPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "GeoStreamPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["ListSliceContourPlot3D", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "ListSliceContourPlot3D", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["ParametricPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "ParametricPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["RadialAxisPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "RadialAxisPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["VectorDisplacementPlot3D", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "VectorDisplacementPlot3D", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic]},
+               {
+                ButtonBox[
+                 StyleBox["ComplexRegionPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "ComplexRegionPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["GeoVectorPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "GeoVectorPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["ListSliceDensityPlot3D", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "ListSliceDensityPlot3D", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["ParametricPlot3D", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "ParametricPlot3D", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["RegionPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "RegionPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["VectorPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "VectorPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic]},
+               {
+                ButtonBox[
+                 StyleBox["ComplexStreamPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "ComplexStreamPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["GraphPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "GraphPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["ListSliceVectorPlot3D", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "ListSliceVectorPlot3D", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["Plot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "Plot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["RegionPlot3D", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "RegionPlot3D", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["VectorPlot3D", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "VectorPlot3D", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic]},
+               {
+                ButtonBox[
+                 StyleBox["ComplexVectorPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "ComplexVectorPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["GraphPlot3D", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "GraphPlot3D", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["ListStepPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "ListStepPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["Plot3D", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "Plot3D", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["ReImPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "ReImPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["WaveletImagePlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "WaveletImagePlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic]},
+               {
+                ButtonBox[
+                 StyleBox["ContourPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "ContourPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["ImageVectorscopePlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "ImageVectorscopePlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["ListStreamDensityPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "ListStreamDensityPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["Plot3Matrix", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "Plot3Matrix", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["ReliefPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "ReliefPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["WaveletListPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "WaveletListPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic]},
+               {
+                ButtonBox[
+                 StyleBox["ContourPlot3D", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "ContourPlot3D", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["ImageWaveformPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "ImageWaveformPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["ListStreamPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "ListStreamPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["PlotDivision", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "PlotDivision", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["RevolutionPlot3D", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "RevolutionPlot3D", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["WaveletMatrixPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "WaveletMatrixPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic]},
+               {
+                ButtonBox[
+                 
+                 StyleBox["CumulativeFeatureImpactPlot", 
+                  "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "CumulativeFeatureImpactPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["JuliaSetPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "JuliaSetPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["ListStreamPlot3D", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "ListStreamPlot3D", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["PlotJoined", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "PlotJoined", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["RootLocusPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "RootLocusPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["$PlotTheme", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "$PlotTheme", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic]},
+               {
+                ButtonBox[
+                 StyleBox["DateListLogPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "DateListLogPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["LayeredGraphPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "LayeredGraphPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["ListSurfacePlot3D", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "ListSurfacePlot3D", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["PlotLabel", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "PlotLabel", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["RulePlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "RulePlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], ""},
+               {
+                ButtonBox[
+                 StyleBox["DateListPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "DateListPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["LayeredGraphPlot3D", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "LayeredGraphPlot3D", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["ListVectorDensityPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "ListVectorDensityPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["PlotLabels", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "PlotLabels", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["SingularValuePlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "SingularValuePlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], ""},
+               {
+                ButtonBox[
+                 StyleBox["DateListStepPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "DateListStepPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 
+                 StyleBox["LineIntegralConvolutionPlot", 
+                  "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "LineIntegralConvolutionPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 
+                 StyleBox["ListVectorDisplacementPlot", 
+                  "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "ListVectorDisplacementPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["PlotLayout", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "PlotLayout", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["SliceContourPlot3D", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "SliceContourPlot3D", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], ""},
+               {
+                ButtonBox[
+                 StyleBox["DensityPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "DensityPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["ListContourPlot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "ListContourPlot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 
+                 StyleBox["ListVectorDisplacementPlot3D", 
+                  "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "ListVectorDisplacementPlot3D", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["PlotLegends", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "PlotLegends", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["SliceDensityPlot3D", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-2a72b304-3ee5-4dcc-a56a-3dd0f43a5323", {
+                   "SliceDensityPlot3D", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], ""}
+              },
+              DefaultBaseStyle->"Text",
+              
+              GridBoxAlignment->{
+               "Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+              GridBoxItemSize->{"Columns" -> {{
+                   Scaled[0.15833333333333333`]}}}],
+             ImageMargins->{{10, 0}, {0, 2}}]}
+          },
+          GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}}],
+         FrameMargins->{{0, 0}, {8, 0}}]}, Dynamic[Typeset`open$$],
+        ImageSize->Automatic]]}
+    },
+    GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+    GridBoxDividers->{"ColumnsIndexed" -> {{False}}, "RowsIndexed" -> {}},
+    GridBoxSpacings->{"Columns" -> {
+        Offset[0.27999999999999997`], {
+         Offset[0.5599999999999999]}, 
+        Offset[0.27999999999999997`]}, "Rows" -> {
+        Offset[0.2], {
+         Offset[0.8]}, 
+        Offset[0.2]}}],
+   BaseStyle->"InformationTitleFrame"], "InformationGridPlain"]], "Output",
+ CellChangeTimes->{{3.90100439922681*^9, 3.901004408496924*^9}, 
+   3.901004445316556*^9},
+ CellLabel->
+  "Out[378]=",ExpressionUUID->"8a2be27e-d949-40d0-b28f-abf6fccaa0e5"]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
@@ -8775,6 +10349,13 @@ Cell[405404, 7297, 28338, 535, 230, "Output",ExpressionUUID->"aaa4f90b-d8d5-46ad
 Cell[CellGroupData[{
 Cell[433779, 7837, 1095, 29, 96, "Input",ExpressionUUID->"8e909813-3309-4787-aab0-6c86768667bf"],
 Cell[434877, 7868, 43917, 786, 225, "Output",ExpressionUUID->"84cf6617-464b-46dd-9fd4-6ad9191e0f37"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[478843, 8660, 188, 3, 54, "Subsection",ExpressionUUID->"b3b30212-2f46-42cb-8ffb-e76d2296992b"],
+Cell[CellGroupData[{
+Cell[479056, 8667, 253, 5, 28, "Input",ExpressionUUID->"e6b28098-ddd5-41c7-8df1-ae5b82b2d16b"],
+Cell[479312, 8674, 66594, 1554, 59, "Output",ExpressionUUID->"8a2be27e-d949-40d0-b28f-abf6fccaa0e5"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
