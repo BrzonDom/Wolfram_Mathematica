@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    215640,       4405]
-NotebookOptionsPosition[    208510,       4285]
-NotebookOutlinePosition[    208919,       4301]
-CellTagsIndexPosition[    208876,       4298]
+NotebookDataLength[    216415,       4426]
+NotebookOptionsPosition[    209056,       4302]
+NotebookOutlinePosition[    209465,       4318]
+CellTagsIndexPosition[    209422,       4315]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -4279,6 +4279,23 @@ Cell[BoxData[
  CellLabel->
   "Out[611]=",ExpressionUUID->"39d4dcb6-d40c-439d-9d48-555d60051714"]
 }, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\[CapitalUAcute]kol 10", "Subsection",
+ CellChangeTimes->{{3.901122467238195*^9, 
+  3.9011224736428556`*^9}},ExpressionUUID->"7f7ab217-5a06-4451-98f6-\
+cb569a16844f"],
+
+Cell["\<\
+https://youtu.be/eETd54BUjoI?t=5228
+Okomentovan\[YAcute] postup metody odhadu\
+\>", "Text",
+ CellChangeTimes->{{3.9011225124109344`*^9, 3.9011225134933825`*^9}, {
+  3.9011225563321505`*^9, 3.9011225739388056`*^9}, {3.9011226209342537`*^9, 
+  3.9011226217353716`*^9}},ExpressionUUID->"bb8ec93b-be39-4cb8-b3b4-\
+7a796d294ab4"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
@@ -4404,6 +4421,10 @@ Cell[206797, 4226, 418, 12, 32, "Output",ExpressionUUID->"7dcf9ea0-243c-44f5-b4e
 Cell[207218, 4240, 842, 26, 35, "Output",ExpressionUUID->"43a89b9b-7e6a-4a04-bd9e-6195f2a458cd"],
 Cell[208063, 4268, 395, 11, 35, "Output",ExpressionUUID->"39d4dcb6-d40c-439d-9d48-555d60051714"]
 }, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[208507, 4285, 172, 3, 54, "Subsection",ExpressionUUID->"7f7ab217-5a06-4451-98f6-cb569a16844f"],
+Cell[208682, 4290, 334, 7, 58, "Text",ExpressionUUID->"bb8ec93b-be39-4cb8-b3b4-7a796d294ab4"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
