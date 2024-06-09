@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    133745,       2368]
-NotebookOptionsPosition[    132073,       2332]
-NotebookOutlinePosition[    132482,       2348]
-CellTagsIndexPosition[    132439,       2345]
+NotebookDataLength[    134470,       2388]
+NotebookOptionsPosition[    132569,       2348]
+NotebookOutlinePosition[    132977,       2364]
+CellTagsIndexPosition[    132934,       2361]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -2326,12 +2326,28 @@ t3Qqwc4rPqfW/5m+BN2BAPwNp28bAz9bL76AN9+h/w+6Amh1
   ImageSizeRaw->{236.2204724409449, 113.23584551931009`},
   PlotRange->{{0, 236.2204724409449}, {0, 113.23584551931009`}}]], "Input",Exp\
 ressionUUID->"78c656dd-8d30-4722-85c8-da905287a5f2"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Homogenn\[IAcute] veden\[IAcute]", "Subsection",
+ CellChangeTimes->{{3.9010184856564965`*^9, 
+  3.9010184936704984`*^9}},ExpressionUUID->"3a528b40-c171-4e4f-9118-\
+71ff5a7ed693"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Quiet", "[", 
+   RowBox[{"Remove", "[", "\"\<Global`*\>\"", "]"}], "]"}], ";"}]], "Input",
+ CellChangeTimes->{{3.90101852639629*^9, 3.90101852639729*^9}},
+ CellLabel->
+  "In[449]:=",ExpressionUUID->"ce9424bf-e4df-4dce-874e-078b46bf7c7e"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{598.5, 606.},
-WindowMargins->{{-1205.25, Automatic}, {Automatic, 0}},
+WindowSize->{598.5, 600.75},
+WindowMargins->{{-1200, Automatic}, {Automatic, 0}},
 FrontEndVersion->"13.2 for Microsoft Windows (64-bit) (January 30, 2023)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"2e4b2e1d-bc5c-435f-b89a-0d05b7472670"
@@ -2367,6 +2383,10 @@ Cell[8764, 276, 509, 11, 65, "Message",ExpressionUUID->"31bd8c98-aded-4281-a6bb-
 Cell[9276, 289, 53914, 903, 239, "Output",ExpressionUUID->"a3986d1e-6317-480f-8853-372caf3806c5"]
 }, Open  ]],
 Cell[63205, 1195, 68828, 1132, 126, "Input",ExpressionUUID->"78c656dd-8d30-4722-85c8-da905287a5f2"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[132070, 2332, 184, 3, 54, "Subsection",ExpressionUUID->"3a528b40-c171-4e4f-9118-71ff5a7ed693"],
+Cell[132257, 2337, 272, 6, 28, "Input",ExpressionUUID->"ce9424bf-e4df-4dce-874e-078b46bf7c7e"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
