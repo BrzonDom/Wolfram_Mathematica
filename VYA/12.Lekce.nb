@@ -1,0 +1,59 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      1504,         51]
+NotebookOptionsPosition[      1020,         34]
+NotebookOutlinePosition[      1428,         50]
+CellTagsIndexPosition[      1385,         47]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["VYA - P\[RHacek]edn\[AAcute]\[SHacek]ky", "Title",
+ CellChangeTimes->{{3.8974152434733944`*^9, 3.8974152540210905`*^9}, {
+  3.897415425449215*^9, 
+  3.897415428416936*^9}},ExpressionUUID->"a6a70cd3-3a26-40fe-bd44-\
+d4ca140f8ab5"],
+
+Cell["12. P\[RHacek]edn\[AAcute]\[SHacek]ka", "Section",
+ CellChangeTimes->{{3.9011227623288593`*^9, 
+  3.9011227683201647`*^9}},ExpressionUUID->"e7c69e1d-fccd-49b8-a7ec-\
+9e61a9e7380f"]
+}, Open  ]]
+},
+WindowSize->{718.5, 741.},
+WindowMargins->{{-725.25, Automatic}, {Automatic, 0}},
+FrontEndVersion->"13.2 for Microsoft Windows (64-bit) (January 30, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"09da1af6-1d41-4e4d-be21-d77f1ade1126"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 235, 4, 98, "Title",ExpressionUUID->"a6a70cd3-3a26-40fe-bd44-d4ca140f8ab5"],
+Cell[818, 28, 186, 3, 67, "Section",ExpressionUUID->"e7c69e1d-fccd-49b8-a7ec-9e61a9e7380f"]
+}, Open  ]]
+}
+]
+*)
+
